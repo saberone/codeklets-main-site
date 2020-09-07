@@ -1,64 +1,42 @@
-import SlackIcon from "../assets/svg/SlackIcon.svg";
-import { useCallback } from "react";
-
 export default function Nav() {
-  const handleSlackButtonClick = useCallback(() => {
-    window.location.href =
-      "https://join.slack.com/t/codeklets/shared_invite/enQtNzQ4MTI4MTMxNzY2LWYzNTk0NzE1YzdkNDczYTg1MDBjZDIyZjkzMThmYTBkZTY3ZTBhNDYyOGY4OWQxZGExM2Q5NzA2ZDM0NGY1ZGM";
-  });
-
   return (
-    <nav className="p-2 mt-0 z-10 top-0 h-14">
-      <div className="container mx-auto flex flex-wrap items-center h-full px-5">
-        <div className="w-full md:w-1/2 justify-center md:justify-start items-start">
-          <a
-            className="text-white no-underline hover:text-white hover:no-underline"
-            href="/"
+    <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-6">
+      <div class="flex items-center flex-shrink-0 text-white mr-6">
+        <a
+          className="text-white no-underline hover:text-white hover:no-underline"
+          href="/"
+        >
+          <h1 className="text-3xl lg:text-3xl font-bold tracking-tighter">
+            {"<CodeKlets>"}
+          </h1>
+        </a>
+      </div>
+      <div class="block lg:hidden">
+        <button class="flex items-center px-3 py-2 border rounded text-gray-200 border-gray-400 hover:text-white hover:border-white">
+          <svg
+            class="fill-current h-3 w-3"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <h1 className="text-3xl lg:text-3xl font-bold tracking-tighter">
-              {"<CodeKlets>"}
-            </h1>
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
+      </div>
+      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div class="text-sm lg:flex-grow">
+          <a
+            href="#responsive-header"
+            class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
+          >
+            Over ons
           </a>
-        </div>
-        <div className="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
-          <ul className="list-reset flex space-x-4 justify-between flex-1 md:flex-none items-center">
-            <li>
-              <a
-                className="inline-block py-2 px-4 text-white no-underline"
-                href="#"
-              >
-                Afleveringen
-              </a>
-            </li>
-            <li>
-              <a
-                className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
-                href="#"
-              >
-                Over ons
-              </a>
-            </li>
-            <li>
-              <a
-                className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
-                href="#"
-              >
-                Contact
-              </a>
-            </li>
-            <li>
-              <button
-                className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
-                onClick={handleSlackButtonClick}
-              >
-                <SlackIcon
-                  className="fill-current w-4 h-4 mr-2"
-                  viewBox="0 0 60 60"
-                ></SlackIcon>
-                <span>Klets op Slack</span>
-              </button>
-            </li>
-          </ul>
+          <a
+            href="#responsive-header"
+            class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
+          >
+            Contact
+          </a>
         </div>
       </div>
     </nav>

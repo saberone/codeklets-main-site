@@ -3,27 +3,44 @@ import AppleBadge from "../components/apple-badge";
 import GoogleBadge from "./google-badge";
 import SpotifyBadge from "./spotify-badge";
 import PocketCastsBadge from "./pocketcasts-badge";
+import SlackIcon from "../assets/svg/SlackIcon.svg";
+import { useCallback } from "react";
 
 export default function Intro() {
+  const handleSlackButtonClick = useCallback(() => {
+    window.location.href =
+      "https://join.slack.com/t/codeklets/shared_invite/enQtNzQ4MTI4MTMxNzY2LWYzNTk0NzE1YzdkNDczYTg1MDBjZDIyZjkzMThmYTBkZTY3ZTBhNDYyOGY4OWQxZGExM2Q5NzA2ZDM0NGY1ZGM";
+  });
+
   return (
     <>
-      <section className="flex flex-row mt-16 mb-4 md:mt-8 md:mb-4 px-2">
-        <div className="w-4/5 justify-center items-start text-center md:text-left flex-1">
-          <h1 className="mb-4 text-3xl lg:text-6xl md:text-5xl sm:text-4xl font-bold tracking-tighter leading-tight">
+      <section className="flex flex-wrap mt-4 mb-4 sm:mt-16 sm:mb-4 md:mt-8 md:mb-4 sm:px-2 space-y-4">
+        <div className="w-full sm:w-4/5 justify-center items-start text-left flex-1 pr-1 sm:pr-0 space-y-2">
+          <h1 className="text-6xl lg:text-6xl md:text-5xl sm:text-4xl font-bold tracking-tighter leading-none sm:leading-tight">
             De CodeKlets Podcast
           </h1>
-          <h2 className="text-2xl lg:text-5xl md:text-4xl sm:text-3xl  font-bold tracking-tighter leading-tight md:pr-8">
-            Lekkere luchtige gesprekken over software development.
+          <h2 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight md:pr-8">
+            Lekker luchtige gesprekken over software development.
           </h2>
+          <div className="w-full text-center">
+            <button
+              className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
+              onClick={handleSlackButtonClick}
+            >
+              <SlackIcon
+                className="fill-current w-4 h-4 mr-2"
+                viewBox="0 0 60 60"
+              ></SlackIcon>
+              <span>Klets op Slack</span>
+            </button>
+          </div>
         </div>
-        <div className="w-1/5 text-center">
-          <a aria-label="Dynamic Routing and Static Generation" href="/">
-            <img
-              className="shadow-sm hover:shadow-lg transition-shadow duration-200 rounded-md"
-              src="/images/codeklets_logo_gradient.jpg"
-              alt="CodeKlets"
-            />
-          </a>
+        <div className="w-full sm:w-1/5 text-center">
+          <img
+            className="shadow-sm hover:shadow-lg transition-shadow duration-200 rounded-md"
+            src="/images/codeklets_logo_gradient.jpg"
+            alt="CodeKlets"
+          />
         </div>
       </section>
       <section className="flex flex-wrap space-x-2 sm:space-x-4 md:space-x-6 lg:space-x-8 xl:space-x-12 sm:flex-row mt-8 mb-16 md:mt-4 md:mb-4 px-2">
