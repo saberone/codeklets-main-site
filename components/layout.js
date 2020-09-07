@@ -7,8 +7,7 @@ export default function Layout({ preview, children }) {
   return (
     <div className="antialiased">
       <Meta />
-
-      <header className="bg-gray-800 w-full">
+      <header className="bg-gray-800 max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 xl:max-w-6xl xl:px-0">
           <Nav></Nav>
         </div>

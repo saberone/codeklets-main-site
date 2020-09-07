@@ -47,11 +47,11 @@ Gastoptredens bij Met Nerds Om Tafel:
 
 ## Tips
 
-**Random**
+### Random
 
 [Advent of Code](https://adventofcode.com)
 
-**Conferenties**
+### Conferenties
 
 - [Lead dev](https://theleaddeveloper.com)
 - [Rails conf](https://railsconf.com/)
@@ -62,13 +62,13 @@ Gastoptredens bij Met Nerds Om Tafel:
 - [React Finland](https://react-finland.fi/)
 - [React Summit](https://remote.reactsummit.com)
 
-**Boekentips**
+### Boekentips
 
 - [Managers’ path](https://www.goodreads.com/book/show/33369254-the-manager-s-path) - Camille Fournier
 - [Resilient management](https://www.goodreads.com/book/show/45767533-resilient-management) - Lara Hogan
 - [An elegant puzzle](https://www.goodreads.com/book/show/45303387-an-elegant-puzzle) - Will Larson
 
-**Nieuwsbrief**
+### Nieuwsbrief
 
 [Perils of the Overworld](https://www.robinsloan.com/overworld/)
 

@@ -3,6 +3,7 @@ import MoreStories from "../components/more-stories";
 import HeroPost from "../components/hero-post";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
+import SectionSeparator from "../components/section-separator";
 import { getAllPosts } from "../lib/api";
 import Head from "next/head";
 
@@ -17,6 +18,7 @@ export default function Index({ allPosts }) {
         </Head>
         <Container>
           <Intro />
+          <SectionSeparator />
           {heroPost && (
             <HeroPost
               title={heroPost.title}
@@ -28,6 +30,7 @@ export default function Index({ allPosts }) {
               episodeguid={heroPost.episodeguid}
             />
           )}
+          <SectionSeparator />
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
       </Layout>

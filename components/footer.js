@@ -2,22 +2,16 @@ import Container from "./container";
 
 export default function Footer() {
   return (
-    <footer className="bg-accent-1 border-t border-accent-2">
-      <Container>
-        <div className="py-28 flex flex-col lg:flex-row items-center">
-          <h3 className="text-3xl lg:text-3xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-            {"</CodeKlets>"}
-          </h3>
-          <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
-            <a
-              href="https://join.slack.com/t/codeklets/shared_invite/enQtNzQ4MTI4MTMxNzY2LWYzNTk0NzE1YzdkNDczYTg1MDBjZDIyZjkzMThmYTBkZTY3ZTBhNDYyOGY4OWQxZGExM2Q5NzA2ZDM0NGY1ZGM"
-              className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
-            >
-              Klets met ons op Slack
-            </a>
+    <footer className="bg-gray-800 w-full">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 xl:max-w-6xl xl:px-0">
+        <div className="p-2 mt-0 z-10 top-0 h-14">
+          <div className="container mx-auto flex flex-wrap items-center h-full px-5">
+            <h3 className="text-white text-3xl lg:text-3xl font-bold tracking-tighter leading-tight lg:text-left lg:w-1/2">
+              {"</CodeKlets>"}
+            </h3>
           </div>
         </div>
-      </Container>
+      </div>
     </footer>
   );
 }

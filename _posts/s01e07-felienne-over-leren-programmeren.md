@@ -18,7 +18,7 @@ Deze keer hebben we Felienne Hermans te gast. Felienne is in haar dagelijkse wer
 
 We gaan het met Felienne hebben over het leren programmeren, wat mensen echte programmeertalen vinden, en allerlei zaken die Felienne bezig houden. Dus weer een aflevering die je niet wil missen!
 
-## Onderwerpen:
+## Onderwerpen
 
 - 00:00:00 - Intro
 - 00:09:07 - Conferentie klets
