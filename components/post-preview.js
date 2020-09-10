@@ -18,10 +18,8 @@ export default function PostPreview({
           <a className="hover:underline">{title}</a>
         </Link>
       </h3>
-      <div className="text-lg mb-4">
-        <dd class="text-base leading-6 font-medium text-gray-600">
-          Publicatiedatum: <DateFormatter dateString={date} />
-        </dd>
+      <div className="mb-4 text-base leading-6 font-medium text-gray-800">
+        Publicatiedatum: <DateFormatter dateString={date} />
       </div>
       <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
     </div>

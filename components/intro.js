@@ -1,16 +1,16 @@
-import cn from "classnames";
-import AppleBadge from "../components/apple-badge";
-import GoogleBadge from "./google-badge";
-import SpotifyBadge from "./spotify-badge";
-import PocketCastsBadge from "./pocketcasts-badge";
+import AppleBadge from "../assets/svg/AppleBadge.svg";
+import GoogleBadge from "../assets/svg/GoogleBadge.svg";
+import SpotifyBadge from "../assets/svg/SpotifyBadge.svg";
+import PocketCastsBadge from "../assets/svg/PocketCastsBadge.svg";
 import SlackIcon from "../assets/svg/SlackIcon.svg";
-import { useCallback } from "react";
+
+import { Svg } from "react-optimized-image";
 
 export default function Intro() {
-  const handleSlackButtonClick = useCallback(() => {
+  const handleSlackButtonClick = () => {
     window.location.href =
       "https://join.slack.com/t/codeklets/shared_invite/enQtNzQ4MTI4MTMxNzY2LWYzNTk0NzE1YzdkNDczYTg1MDBjZDIyZjkzMThmYTBkZTY3ZTBhNDYyOGY4OWQxZGExM2Q5NzA2ZDM0NGY1ZGM";
-  });
+  };
 
   return (
     <>
@@ -25,12 +25,13 @@ export default function Intro() {
           <div className="w-full text-center">
             <button
               className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
-              onClick={handleSlackButtonClick}
+              onClick={() => handleSlackButtonClick()}
             >
-              <SlackIcon
+              <Svg
+                src={SlackIcon}
                 className="fill-current w-4 h-4 mr-2"
                 viewBox="0 0 60 60"
-              ></SlackIcon>
+              />
               <span>Klets op Slack</span>
             </button>
           </div>
@@ -38,7 +39,7 @@ export default function Intro() {
         <div className="w-full sm:w-1/5 text-center">
           <img
             className="shadow-sm hover:shadow-lg transition-shadow duration-200 rounded-md"
-            src="/images/codeklets_logo_gradient.jpg"
+            src={require("../assets/images/codeklets_logo_gradient.jpg")}
             alt="CodeKlets"
           />
         </div>
@@ -50,7 +51,7 @@ export default function Intro() {
             aria-label="apple-podcast"
             href="https://podcasts.apple.com/us/podcast/codeklets/id1478629613?uo=4"
           >
-            <AppleBadge></AppleBadge>
+            <Svg src={AppleBadge} />
           </a>
         </div>
         <div className="text-center py-1 sm:py-2">
@@ -58,12 +59,12 @@ export default function Intro() {
             aria-label="spotify-podcast"
             href="https://open.spotify.com/show/0Sf8c3aGZmtGiNUEwgDTSu"
           >
-            <SpotifyBadge></SpotifyBadge>
+            <Svg src={SpotifyBadge} />
           </a>
         </div>
         <div className="text-center py-1 sm:py-2">
           <a aria-label="pocketcasts-podcast" href="https://pca.st/pjOKXK">
-            <PocketCastsBadge></PocketCastsBadge>
+            <Svg src={PocketCastsBadge}></Svg>
           </a>
         </div>
         <div className="text-center py-1 sm:py-2">
@@ -71,7 +72,7 @@ export default function Intro() {
             aria-label="google-podcast"
             href="https://podcasts.google.com/?feed=aHR0cHM6Ly9waW5lY2FzdC5jb20vZmVlZC9jb2Rla2xldHM="
           >
-            <GoogleBadge></GoogleBadge>
+            <Svg src={GoogleBadge}></Svg>
           </a>
         </div>
       </section>

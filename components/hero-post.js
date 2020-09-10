@@ -1,11 +1,7 @@
-import Avatar from "../components/avatar";
 import DateFormatter from "../components/date-formatter";
-import CoverImage from "../components/cover-image";
-import Link from "next/link";
 
 export default function HeroPost({
   title,
-  coverImage,
   date,
   excerpt,
   author,
@@ -14,11 +10,9 @@ export default function HeroPost({
 }) {
   return (
     <section className="bg-gray-200 rounded-md">
-      {/* <div className="mb-8 md:mb-16">
-        <CoverImage title={title} src={coverImage} slug={slug} />
-      </div> */}
       <div className="mt-6 mb-2 md:mb-4 p-4">
         <iframe
+          title="Pinecast podcast player"
           src={`https://pinecast.com/player/${episodeguid}?theme=flat`}
           seamless
           height="200"
@@ -33,10 +27,8 @@ export default function HeroPost({
               <a className="hover:underline">{title}</a>
             </Link>
           </h3> */}
-          <p className="mb-4 md:mb-0 text-lg">
-            <dd class="text-base leading-6 font-medium text-gray-600">
-              Publicatiedatum: <DateFormatter dateString={date} />
-            </dd>
+          <p className="mb-4 md:mb-0 text-base leading-6 font-medium text-gray-800">
+            Publicatiedatum: <DateFormatter dateString={date} />
           </p>
         </div>
       </div>
