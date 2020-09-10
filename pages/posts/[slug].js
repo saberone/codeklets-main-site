@@ -38,6 +38,7 @@ export default function Post({ post, morePosts, preview }) {
                 author={post.author}
               />
               <iframe
+                title="Pinecast podcast player"
                 src={`https://pinecast.com/player/${post.episodeguid}?theme=flat`}
                 seamless
                 height="200"

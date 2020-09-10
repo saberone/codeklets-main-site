@@ -44,7 +44,7 @@ export default function Intro() {
           />
         </div>
       </section>
-      <section className="flex flex-wrap space-x-2 sm:space-x-4 md:space-x-6 lg:space-x-8 xl:space-x-12 sm:flex-row mt-8 mb-16 md:mt-4 md:mb-4 px-2">
+      <section className="flex flex-wrap space-x-1 sm:space-x-4 md:space-x-6 lg:space-x-8 xl:space-x-12 sm:flex-row mt-4 mb-4 px-2">
         {" "}
         <div className="text-center py-1 sm:py-2">
           <a
