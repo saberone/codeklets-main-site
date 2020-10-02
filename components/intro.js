@@ -24,7 +24,8 @@ export default function Intro() {
           </h2>
           <div className="w-full text-center">
             <button
-              className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
+              className="bg-gray-200 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center shadow hover:shadow-md outline-none focus:outline-none"
+              style={{ transition: "all .15s ease" }}
               onClick={() => handleSlackButtonClick()}
             >
               <Svg

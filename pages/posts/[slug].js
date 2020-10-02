@@ -25,10 +25,9 @@ export default function Post({ post, morePosts, preview }) {
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article className="xl:divide-y xl:divide-gray-200 mb-32">
+            <article className="xl:divide-y xl:divide-gray-200 mb-32 sm:mt-16 md:mt-8">
               <Head>
                 <title>{post.title}</title>
-                <meta property="og:image" content={post.ogImage.url} />
               </Head>
 
               <PostHeader
@@ -37,16 +36,18 @@ export default function Post({ post, morePosts, preview }) {
                 date={post.date}
                 author={post.author}
               />
-              <iframe
-                title="Pinecast podcast player"
-                src={`https://pinecast.com/player/${post.episodeguid}?theme=flat`}
-                seamless
-                height="200"
-                style={{ border: 0 }}
-                className="pinecast-embed"
-                frameBorder="0"
-                width="100%"
-              ></iframe>
+              <div className="max-w-2xl mx-auto">
+                <iframe
+                  title="Pinecast podcast player"
+                  src={`https://pinecast.com/player/${post.episodeguid}?theme=flat`}
+                  seamless
+                  height="200"
+                  style={{ border: 0 }}
+                  className="pinecast-embed"
+                  frameBorder="0"
+                  width="100%"
+                ></iframe>
+              </div>
               <PostBody content={post.content} />
             </article>
           </>

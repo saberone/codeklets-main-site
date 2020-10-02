@@ -2,7 +2,7 @@ import PostPreview from "../components/post-preview";
 
 export default function MoreStories({ posts }) {
   return (
-    <section>
+    <section className="flex flex-wrap mt-4 mb-4 sm:mt-16 sm:mb-4 md:mt-8 md:mb-4 px-2 space-y-4">
       <h2 className="mb-8 text-6xl md:text-7xl font-bold tracking-tighter leading-tight">
         Vorige afleveringen
       </h2>
