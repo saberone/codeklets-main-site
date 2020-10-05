@@ -14,7 +14,7 @@ episode: 10
 
 ## Shownotes
 
-Dit is onze 10e aflevering. En wat ons betreft is dat gewoon een jubileum, dus laat die Bossche Bollen maar komen. In deze aflevering blikken we terug op de voorgaande afleveringen, staan we stil bij hoe we het vinden gaan, en blikken we voorzichtig vooruit op de toekomst van CodeKlets. We hebben het ook over een aantal Developer Dilemma's ([link](https://developerdilemmas.com)), en bespreken een vragen van luisteraars.
+Dit is onze 10e aflevering. En wat ons betreft is dat gewoon een jubileum, dus laat die Bossche Bollen maar komen. In deze aflevering blikken we terug op de voorgaande afleveringen, staan we stil bij hoe we het vinden gaan, en blikken we voorzichtig vooruit op de toekomst van CodeKlets. Maar ook over wat ons nu zo "luchtig" maakt. We hebben het ook over een aantal Developer Dilemma's ([link](https://developerdilemmas.com)), en bespreken een vragen van luisteraars.
 
 ### Met
 
