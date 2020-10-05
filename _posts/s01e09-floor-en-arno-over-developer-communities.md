@@ -12,7 +12,7 @@ season: 1
 episode: 9
 ---
 
-# Shownotes
+## Shownotes
 
 In deze aflevering hebben we Floor Drees en Arno Fleming te gast. Floor is werkzaam als Developer Relations Program Manager voor Microsoft/West-Europa, en Arno is werkzaam als Tech Lead bij The Next Closet.
 
@@ -20,17 +20,17 @@ Ze zijn allebei actief in de Ruby community, en hebben heel veel ervaring in het
 
 Verder willen we [Aviva Solutions](https://www.avivasolutions.nl) bedanken voor het beschikbaar stellen van de ruimte om de opname te maken.
 
-## Floor Drees
+### Floor Drees
 
 - Twitter - [@floordrees](https://twitter.com/floordrees)
 - LinkedIn - [link](https://www.linkedin.com/in/floordrees/)
 
-## Arno Fleming
+### Arno Fleming
 
 - Twitter - [@ButCoded](http://twitter.com/ButCoded)
 - LinkedIn - [link](https://www.linkedin.com/in/arno-fleming-925a061b0/)
 
-## Onderwerpen
+### Onderwerpen
 
 - 00:01:13 : Shout out naar MNoT!
 - 00:15:42 : Amsterdam.rb nieuw leven inblazen
@@ -42,7 +42,7 @@ Verder willen we [Aviva Solutions](https://www.avivasolutions.nl) bedanken voor 
 - 01:28:37 : Developer Kiest!
 - 01:50:39 : Tips
 
-## Tips
+### Tips
 
 **Random links uit de aflevering**
 
@@ -62,7 +62,7 @@ Verder willen we [Aviva Solutions](https://www.avivasolutions.nl) bedanken voor 
 - DevOps World - https://www.cloudbees.com/devops-world
 - State of The Source - https://opensource.org/StateOfTheSource
 
-## CodeKlets links
+### CodeKlets links
 
 - [CodeKlets Site](https://codeklets.nl)
 - [CodeKlets Slack](https://join.slack.com/t/codeklets/shared_invite/enQtNzQ4MTI4MTMxNzY2LWYzNTk0NzE1YzdkNDczYTg1MDBjZDIyZjkzMThmYTBkZTY3ZTBhNDYyOGY4OWQxZGExM2Q5NzA2ZDM0NGY1ZGM)
