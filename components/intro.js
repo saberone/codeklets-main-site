@@ -40,8 +40,8 @@ export default function Intro() {
         <div className="w-full sm:w-1/5 text-center">
           <img
             className="shadow-sm hover:shadow-lg transition-shadow duration-200 rounded-md"
-            src={require("../assets/images/codeklets_logo_gradient.jpg")}
-            alt="CodeKlets"
+            src={require("../assets/images/codeklets_1080x1080.png")}
+            alt="CodeKlets logo"
           />
         </div>
       </section>
