@@ -1,6 +1,6 @@
 ---
 title: "Meinte Boersma over Domain Specific Languages"
-excerpt: "We hebben dit keer niemand minder dan Meinte Boersma te gast. Meinte legt ons uit wat de kracht van een Domain Specific Language (DSL) is. En hij vertelt ons hoe hij erbij is gekomen om een boek te schrijven over DSLs."
+excerpt: "We hebben dit keer niemand minder dan Meinte Boersma te gast. Meinte legt ons uit wat de kracht van een Domain Specific Language (DSL) is. En hij vertelt ons hoe hij erbij is gekomen om een boek te schrijven over DSLs.  "
 coverImage: "/assets/podcast/s01e07/felienne-hermans.jpg"
 date: "2020-10-19T13:37:07.322Z"
 author:
