@@ -38,7 +38,7 @@ export default function Post({ post, morePosts, preview }) {
               />
               <div className="max-w-2xl mx-auto">
                 <iframe
-                  title="Pinecast podcast player"
+                  title="Pinecast player"
                   src={`https://pinecast.com/player/${post.episodeguid}?theme=flat`}
                   seamless
                   height="200"
