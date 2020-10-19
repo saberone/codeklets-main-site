@@ -28,6 +28,7 @@ Een special shout out gaat naar [Manning](https://www.manning.com). Zij hebben v
 - Twitter - [@meinte37](https://twitter.com/meinte37)
 - LinkedIn - [link](https://www.linkedin.com/in/meinte-boersma-965a681/)
 - Meintes boek over DSLs - [Domain-Specific Languages Made Easy](https://www.manning.com/books/domain-specific-languages-made-easy)
+- Twitch - [Making a tiny data model DSL](https://www.twitch.tv/manningpublications/video/773372390)
 
 ### Onderwerpen
 
