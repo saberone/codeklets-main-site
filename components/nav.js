@@ -1,4 +1,6 @@
 import React, { useState, useCallback } from "react";
+import Link from "next/link";
+
 export default function Nav() {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
@@ -6,14 +8,13 @@ export default function Nav() {
     <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg mb-3">
       <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-          <a
-            className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-white"
-            href="/"
-          >
-            <h2 className="text-3xl lg:text-3xl font-bold tracking-tighter">
-              {"{CodeKlets}"}
-            </h2>
-          </a>
+          <Link href="/">
+            <a className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-white">
+              <h2 className="text-3xl lg:text-3xl font-bold tracking-tighter">
+                {"{CodeKlets}"}
+              </h2>
+            </a>
+          </Link>
           <button
             className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
             onClick={() => setNavbarOpen(!navbarOpen)}
@@ -35,10 +36,17 @@ export default function Nav() {
           }
           id="example-navbar-danger"
         >
-          <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <ul className="flex flex-col items-center space-y-3 space-x-1 lg:space-y-0 lg:space-x-3 lg:flex-row list-none lg:ml-auto">
+            <li className="nav-item">
+              <Link href="/newsletter">
+                <a className="flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">
+                  <span className="ml-2">Nieuwsbrief</span>
+                </a>
+              </Link>
+            </li>
             <li className="nav-item">
               <a
-                className="block flex items-center text-white hover:text-gray-500 mr-5"
+                className="flex block items-center text-white hover:text-gray-500 mr-5"
                 href="https://twitter.com/codeklets"
               >
                 <svg

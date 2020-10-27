@@ -1,0 +1,7 @@
+{
+  "build": {
+    "env": {
+      "GETREVUE_API_KEY": "@getrevue-api-key"
+    }
+  }
+}
