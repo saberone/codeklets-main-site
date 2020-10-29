@@ -51,7 +51,7 @@ En we hebben sinds kort ook de [CodeKlets Nieuwsbrief](https://codeklets.nl/news
 ### Show links
 
 - [Pragmatic Progammer, 20th Anniversary Edition](https://www.pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
-- [Podcast over je meer salaris krijgt als iOS dev](https://www.essentialdeveloper.com/ios-lead-essentials/podcast/)
+- [Podcast over hoe je meer salaris krijgt als iOS dev](https://www.essentialdeveloper.com/ios-lead-essentials/podcast/)
 - [Big Nerd Ranch boeken](https://www.bignerdranch.com/books/)
 - [Getting started met iOS development tutorial van Apple zelf](https://developer.apple.com/swift/resources/)
 - [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
