@@ -37,16 +37,16 @@ En we hebben sinds kort ook de [CodeKlets Nieuwsbrief](https://codeklets.nl/news
 ### Onderwerpen
 
 00:00:35 Intro
-00:23:13 Hoe gaat het bouwen van een iOS app?
-00:25:51 Het verschil tussen Swift & Objective-C
-00:30:18 UI bouwen in code of met de Interface Builder?
-00:36:49 Wat is ABI compatibiliteit?
-00:45:57 Hoe hou je rekening met security in een app?
-00:55:50 Wat is Cocoa?
-01:25:02 Twitter rant die geen rant was
-01:31:49 Developer Dilemma's
-01:42:55 Tips
-01:46:45 Outro
+00:23:13 Hoe gaat het bouwen van een iOS app?  
+00:25:51 Het verschil tussen Swift & Objective-C  
+00:30:18 UI bouwen in code of met de Interface Builder?  
+00:36:49 Wat is ABI compatibiliteit?  
+00:45:57 Hoe hou je rekening met security in een app?  
+00:55:50 Wat is Cocoa?  
+01:25:02 Twitter rant die geen rant was  
+01:31:49 Developer Dilemma's  
+01:42:55 Tips  
+01:46:45 Outro  
 
 ### Show links
 
