@@ -18,7 +18,7 @@ We hebben deze keer de eer om Jeroen Leenarts te gast te hebben. Jeroen is een z
 
 Een special shout out gaat naar [Salves](https://www.salves.nl), zij hebben het mogelijk gemaakt dat we deze aflevering online hebben kunnen opnemen via Zencastr.
 
-En we hebben sinds kort ook de [CodeKlets Nieuwsbrief](https://codeklets.nl/newsletter). Een tweewekelijkse nieuwsbrief met interessante links naar zaken die developers interessant vinden, en een klein beetje duiding op zijn CodeKlets'.
+En we hebben sinds kort ook de [CodeKlets Nieuwsbrief](https://codeklets.nl/newsletter). Een tweewekelijkse nieuwsbrief met interessante links naar zaken die developers interessant vinden met een klein beetje duiding op zijn CodeKlets'.
 
 ### Met hosts
 
