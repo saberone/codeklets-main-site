@@ -61,8 +61,6 @@ En we hebben sinds kort ook de [CodeKlets Nieuwsbrief](https://codeklets.nl/news
 - [Alan Moore](https://en.wikipedia.org/wiki/Alan_Moore)
 - [Alan Moore / Providence](https://en.wikipedia.org/wiki/Providence_(Avatar_Press))
 
-
-
 ### CodeKlets links
 
 - [CodeKlets](https://codeklets.nl)
