@@ -30,7 +30,7 @@ En we hebben sinds kort ook de [CodeKlets Nieuwsbrief](https://codeklets.nl/news
 - Twitter - [@leenarts](https://twitter.com/leenarts)
 - LinkedIn - [link](https://www.linkedin.com/in/leenarts/)
 - [leenarts.net](https://leenarts.net)
--  Jeroens eigen podcast! - [De AppForce1 Podcast](http://appforce1.net/podcast)
+- Jeroens eigen podcast! - [De AppForce1 Podcast](http://appforce1.net/podcast)
 - [Xcode shortcuts blogpost van Jeroen](https://leenarts.net/2020/02/18/frequently-used-keyboard-shortcuts-i-use-inwith-xcode/)
 - [CocoaHeadsNL](http://cocoaheads.nl/)
 
