@@ -3,8 +3,7 @@ import GoogleBadge from "../assets/svg/GoogleBadge.svg";
 import SpotifyBadge from "../assets/svg/SpotifyBadge.svg";
 import PocketCastsBadge from "../assets/svg/PocketCastsBadge.svg";
 import SlackIcon from "../assets/svg/SlackIcon.svg";
-
-import { Svg } from "react-optimized-image";
+import Image from "next/image";
 
 export default function Intro() {
   const handleSlackButtonClick = () => {
@@ -28,20 +27,18 @@ export default function Intro() {
               style={{ transition: "all .15s ease" }}
               onClick={() => handleSlackButtonClick()}
             >
-              <Svg
-                src={SlackIcon}
-                className="fill-current w-4 h-4 mr-2"
-                viewBox="0 0 60 60"
-              />
+              <SlackIcon className="fill-current w-4 h-4 mr-2" />
               <span>Klets op Slack</span>
             </button>
           </div>
         </div>
         <div className="w-full sm:w-1/5 text-center">
-          <img
+          <Image 
             className="shadow-sm hover:shadow-lg transition-shadow duration-200 rounded-md"
-            src={require("../assets/images/codeklets_1080x1080.png")}
+            src={"/images/codeklets_1080x1080.png"}
             alt="CodeKlets logo"
+            width={1080}
+            height={1080}
           />
         </div>
       </section>
@@ -52,7 +49,7 @@ export default function Intro() {
             aria-label="apple-podcast"
             href="https://podcasts.apple.com/us/podcast/codeklets/id1478629613?uo=4"
           >
-            <Svg src={AppleBadge} />
+            <AppleBadge />
           </a>
         </div>
         <div className="text-center py-1 sm:py-2">
@@ -60,12 +57,12 @@ export default function Intro() {
             aria-label="spotify-podcast"
             href="https://open.spotify.com/show/0Sf8c3aGZmtGiNUEwgDTSu"
           >
-            <Svg src={SpotifyBadge} />
+            <SpotifyBadge />
           </a>
         </div>
         <div className="text-center py-1 sm:py-2">
           <a aria-label="pocketcasts-podcast" href="https://pca.st/pjOKXK">
-            <Svg src={PocketCastsBadge}></Svg>
+            <PocketCastsBadge />
           </a>
         </div>
         <div className="text-center py-1 sm:py-2">
@@ -73,7 +70,7 @@ export default function Intro() {
             aria-label="google-podcast"
             href="https://podcasts.google.com/?feed=aHR0cHM6Ly9waW5lY2FzdC5jb20vZmVlZC9jb2Rla2xldHM="
           >
-            <Svg src={GoogleBadge}></Svg>
+            <GoogleBadge />
           </a>
         </div>
       </section>
