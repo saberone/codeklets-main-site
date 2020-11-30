@@ -30,7 +30,7 @@ Een special shout out gaat naar [Salves](https://www.salves.nl), zij maken het m
 
 ### Onderwerpen
 
-00:00:04 Intro
+00:00:04 Intro  
 00:05:59 Hoe is Tim begonnen met software ontwikkeling?  
 00:38:53 Wat zijn Micro en MDX?  
 00:59:09 Next.js 10 features  
