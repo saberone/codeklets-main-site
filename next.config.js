@@ -1,13 +1,17 @@
 const withPlugins = require("next-compose-plugins");
-const withOptimizedImages = require("next-optimized-images");
+const withReactSvg = require("next-react-svg");
+const path = require("path");
 
-module.exports = withPlugins([
-  withOptimizedImages,
+/* module.exports = withPlugins([
+  withReactSvg,
   {
-    /* config for next-optimized-images */
-    images: {
-      // for example
-      handleImages: ["jpeg", "png", "svg", "webp", "gif", "ico"],
-    },
+    include: path.resolve(__dirname, 'assets/svg')
   },
-]);
+]);*/
+
+module.exports = withReactSvg({
+  include: path.resolve(__dirname, "assets/svg"),
+  webpack(config, options) {
+    return config;
+  },
+});
