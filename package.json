@@ -1,14 +1,15 @@
 {
-  "name": "learn-starter",
-  "version": "0.1.0",
+  "name": "codeklets-main-site",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
-    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
     "classnames": "^2.2.6",
+    "cross-env": "^7.0.3",
     "date-fns": "^2.16.1",
     "gray-matter": "^4.0.2",
     "isomorphic-unfetch": "^3.1.0",
@@ -21,8 +22,8 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-hook-form": "^6.13.0",
-    "remark": "^12.0.1",
-    "remark-html": "^12.0.0",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1",
     "rss-parser": "^3.9.0",
     "sass": "^1.26.10",
     "tailwindcss": "^2.0.2"
