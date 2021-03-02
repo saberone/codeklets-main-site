@@ -8,7 +8,7 @@ author:
   picture: "/assets/blog/authors/jj.jpeg"
 ogImage:
   url: "/assets/podcast/s01e16/raymond-roestenburg.jpg"
-season: 2
+season: 1
 episode: 16
 ---
 
