@@ -14,7 +14,7 @@ episode: 16
 
 ## Shownotes
 
-Raymond Roestenburg neemt ons mee in de wereld van Akka en hoe hij begonnen is als Software Developer. Hij werkt bij [Lightblend](https://www.lightbend.com/). We hebben het o.a. Scala en wat belangrijk is als software ontwikkelaar.
+Raymond Roestenburg neemt ons mee in de wereld van Akka en hoe hij begonnen is als Software Developer. Hij werkt bij [Lightblend](https://www.lightbend.com/). We hebben het o.a. over Scala en wat belangrijk is als software ontwikkelaar.
 
 ### Met host
 
