@@ -39,12 +39,20 @@ Raymond Roestenburg neemt ons mee in de wereld van Akka en hoe hij begonnen is a
 01:16:35 Outro  
 
 ### Show links
+- [Lightbend](https://www.lightbend.com/)
+- [Akka in Action](https://www.manning.com/books/akka-in-action)
+- [Cloudflow](https://cloudflow.io/)
+- [Retro gaming with Docker](https://www.youtube.com/watch?v=LriUAmAkuD8)
 
 ### Tips
 
 #### Ray
+- [Lightbend akka serverless](https://www.lightbend.com/akka-serverless)
 
 #### Kishen
+- [Github vscode](https://github1s.com/akka/akka)
+- [Github codespaces](https://github.com/features/codespaces)
+- [Rust by example](https://doc.rust-lang.org/rust-by-example/)
 
 ### CodeKlets links
 
