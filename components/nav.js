@@ -17,7 +17,7 @@ export default function Nav() {
           </a>
         </Link>
         <button
-          className="bg-gray-200 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center shadow hover:shadow-md outline-none focus:outline-none"
+          className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-1 px-3 rounded inline-flex items-center shadow hover:shadow-md outline-none focus:outline-none"
           style={{ transition: "all .15s ease" }}
           onClick={() => handleSlackButtonClick()}
         >
