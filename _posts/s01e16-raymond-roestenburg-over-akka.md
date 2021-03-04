@@ -2,7 +2,7 @@
 title: "Raymond Roestenburg over Akka"
 excerpt: "Deze keer is Raymond Roestenburg te gast. Ray Roestenburg werkt bij Lightbend als Tech Lead in het Akka Platform team met Cloud-native initiatieven met een focus op Akka en Kubernetes. Daarnaast werkt hij ook aan Cloudflow. Hij is de auteur van 'Akka in Action' voor Manning publications. Aan het coden sinds de Commodore 64 in de 80's.."
 coverImage: "/assets/podcast/s01e16/raymond-roestenburg.jpg"
-date: "2021-02-09T13:37:01.337Z"
+date: "2021-03-04T13:37:01.337Z"
 author:
   name: Saber Karmous
   picture: "/assets/blog/authors/jj.jpeg"
@@ -29,10 +29,10 @@ Raymond Roestenburg neemt ons mee in de wereld van Akka en hoe hij begonnen is a
 ### Onderwerpen
 
 00:00:04 Intro  
-00:01:40 Oldschool games programmeren
-00:10:00 Akka en Actors met Microservices
-00:37:00 Lightblend
-00:47:00 Akka in Action boek
+00:01:40 Oldschool games programmeren  
+00:10:00 Akka en Actors met Microservices  
+00:37:00 Lightblend  
+00:47:00 Akka in Action boek  
 00:59:20 Developer Dilemma's  
 01:08:00 Twitter rant  
 01:12:30 Tips  
