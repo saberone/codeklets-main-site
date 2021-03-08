@@ -10,7 +10,7 @@ export default function HeroPost({
 }) {
   return (
     <section className="px-2">
-      <div className="bg-gray-200 rounded-md">
+      <div className="bg-gray-100 rounded-md">
         <div className="mt-6 mb-2 md:mb-4 p-4">
           <iframe
             title="Pinecast podcast player"
@@ -28,7 +28,7 @@ export default function HeroPost({
                 <a className="hover:underline">{title}</a>
               </Link>
             </h3> */}
-            <p className="mb-4 md:mb-0 text-base leading-6 font-medium text-gray-800">
+            <p className="mt-2 mb-4 md:mb-0 text-base leading-6 font-medium text-gray-600">
               Publicatiedatum: <DateFormatter dateString={date} />
             </p>
           </div>
