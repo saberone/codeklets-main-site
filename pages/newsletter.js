@@ -13,11 +13,14 @@ function Newsletter({ preview }) {
   return (
     <Layout preview={preview}>
       <Container>
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-3xl mx-auto">
           <div className="flex justify-center flex-col">
-            <h2 className="mb-8 text-6xl md:text-7xl font-bold tracking-tighter leading-tight">
+            <h1
+              className="text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold
+ tracking-tight mb-2 sm:mb-3 text-gray-900"
+            >
               CodeKlets Developer nieuwsbrief
-            </h2>
+            </h1>
           </div>
         </div>
         {!subscribed ? (

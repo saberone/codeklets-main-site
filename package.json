@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.4.0",
     "classnames": "^2.2.6",
     "cross-env": "^7.0.3",
     "date-fns": "^2.16.1",
@@ -19,9 +20,11 @@
     "postcss": "^8.2.1",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.2.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-hook-form": "^6.13.0",
+    "react-icons": "^4.2.0",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
     "rss-parser": "^3.9.0",
