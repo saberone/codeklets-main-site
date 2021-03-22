@@ -38,6 +38,37 @@ export default function Footer() {
               </li>
             </ul>
           </li>
+          <li className="space-y-5">
+            <h2 className="text-xs font-semibold tracking-wide text-gray-900 uppercase">
+              Community
+            </h2>
+            <ul className="space-y-4">
+              <li>
+                <a
+                  className="hover:text-gray-900 transition-colors duration-200"
+                  href="https://join.slack.com/t/codeklets/shared_invite/enQtNzQ4MTI4MTMxNzY2LWYzNTk0NzE1YzdkNDczYTg1MDBjZDIyZjkzMThmYTBkZTY3ZTBhNDYyOGY4OWQxZGExM2Q5NzA2ZDM0NGY1ZGM"
+                >
+                  Slack
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-gray-900 transition-colors duration-200"
+                  href="https://github.com/codeklets"
+                >
+                  Github
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-gray-900 transition-colors duration-200"
+                  href="https://twitter.com/codeklets"
+                >
+                  Twitter
+                </a>
+              </li>
+            </ul>
+          </li>
           <li className="space-y-5 row-span-2">
             <h2 className="text-xs font-semibold tracking-wide text-gray-900 uppercase">
               Vrienden van CodeKlets
@@ -81,37 +112,6 @@ export default function Footer() {
                   href="https://geldvrienden.nl/podcast"
                 >
                   Geldvrienden
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li className="space-y-5">
-            <h2 className="text-xs font-semibold tracking-wide text-gray-900 uppercase">
-              Community
-            </h2>
-            <ul className="space-y-4">
-              <li>
-                <a
-                  className="hover:text-gray-900 transition-colors duration-200"
-                  href="https://join.slack.com/t/codeklets/shared_invite/enQtNzQ4MTI4MTMxNzY2LWYzNTk0NzE1YzdkNDczYTg1MDBjZDIyZjkzMThmYTBkZTY3ZTBhNDYyOGY4OWQxZGExM2Q5NzA2ZDM0NGY1ZGM"
-                >
-                  Slack
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-gray-900 transition-colors duration-200"
-                  href="https://github.com/codeklets"
-                >
-                  Github
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-gray-900 transition-colors duration-200"
-                  href="https://twitter.com/codeklets"
-                >
-                  Twitter
                 </a>
               </li>
             </ul>
