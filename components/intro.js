@@ -2,14 +2,8 @@ import AppleBadge from "../assets/svg/AppleBadge.svg";
 import GoogleBadge from "../assets/svg/GoogleBadge.svg";
 import SpotifyBadge from "../assets/svg/SpotifyBadge.svg";
 import PocketCastsBadge from "../assets/svg/PocketCastsBadge.svg";
-import Image from "next/image";
 
 export default function Intro() {
-  const handleSlackButtonClick = () => {
-    window.location.href =
-      "https://join.slack.com/t/codeklets/shared_invite/enQtNzQ4MTI4MTMxNzY2LWYzNTk0NzE1YzdkNDczYTg1MDBjZDIyZjkzMThmYTBkZTY3ZTBhNDYyOGY4OWQxZGExM2Q5NzA2ZDM0NGY1ZGM";
-  };
-
   return (
     <>
       <section className="flex flex-wrap mt-2 mb-4 sm:mt-8 sm:mb-4 md:mt-4 md:mb-4 sm:px-2 space-y-4">

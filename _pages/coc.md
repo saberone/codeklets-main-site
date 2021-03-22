@@ -39,11 +39,11 @@ Voorbeelden van het vertegenwoordigen van onze community zijn onder meer het geb
 ## Handhaving
 
 Beledigend, intimiderend of anderszins onaanvaardbaar gedrag kan gerapporteerd worden aan de communityleiders die verantwoordelijk zijn voor handhaving via:
-- Bernard Kroes - [mail](mailto:bernard@codeklets.nl)
-- Johnny Dongelmans - [mail](mailto:johnny@codeklets.nl)
-- Pauline Vos - [mail](mailto:pauline@codeklets.nl)
-- Kishen Simbhoedatpanday - [mail](mailto:kishen@codeklets.nl)
-- Saber Karmous - [mail](mailto:saber@codeklets.nl)
+- Bernard Kroes (he/his) - [mail](mailto:bernard@codeklets.nl)
+- Johnny Dongelmans (he/his) - [mail](mailto:johnny@codeklets.nl)
+- Pauline Vos (she/her) - [mail](mailto:pauline@codeklets.nl)
+- Kishen Simbhoedatpanday (he/his) - [mail](mailto:kishen@codeklets.nl)
+- Saber Karmous (he/his) - [mail](mailto:saber@codeklets.nl)
 
 Alle klachten zullen onmiddellijk en eerlijk worden beoordeeld en onderzocht.
 
