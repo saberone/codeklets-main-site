@@ -18,7 +18,7 @@ Verder bespreken we ook een aantal verschillen met bijvoorbeeld web development,
 ## Met host
 
 - Saber Karmous - [LinkedIn](https://www.linkedin.com/in/saberkarmous/) [Twitter](https://twitter.com/sdotone)
-- Kishen Simbhoedatpanday - [LinkedIn](https://www.linkedin.com/in/kishensimbhoedatpanday/) [Twitter](https://twitter.com/KishenPanday)
+- Bernard Kroes - [LinkedIn](https://www.linkedin.com/in/bernard-kroes-5050a82/)
 
 ## Thomas van den Berg
 
@@ -46,14 +46,14 @@ Verder bespreken we ook een aantal verschillen met bijvoorbeeld web development,
 ## Tips
 
 ### Saber
-- In game photography door Frans Bouma : https://fransbouma.com/in-game
+- In game photography door Frans Bouma : <https://fransbouma.com/in-game>
 
 ### Bernard
-- Generating fantasy maps : https://mewo2.com/notes/terrain/
+- Generating fantasy maps : <https://mewo2.com/notes/terrain/>
 
 ### Thomas
-- Unity Tutorials: https://catlikecoding.com/unity/tutorials/
-- De nieuwsbrief van Jendrik Illner: vaak best geavanceerd, maar er zit elke week wel iets toegankelijks bij. En alle artikelen zitten altijd vol afbeeldingen, want het gaat over graphics: https://www.jendrikillner.com/post/graphics-programming-weekly-issue-165/ 
+- Unity Tutorials: <https://catlikecoding.com/unity/tutorials/>
+- De nieuwsbrief van Jendrik Illner: vaak best geavanceerd, maar er zit elke week wel iets toegankelijks bij. En alle artikelen zitten altijd vol afbeeldingen, want het gaat over graphics: <https://www.jendrikillner.com/post/graphics-programming-weekly-issue-165/> 
 
 ## CodeKlets links
 
