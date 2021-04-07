@@ -1,5 +1,5 @@
 ---
-title: "Marijn Koesen over IoT"
+title: "Marijn Koesen over Home Automation"
 excerpt: "Onderwerp van deze aflevering is IoT en Home Automation. En we gaan Marijn daarover aan de tand voelen."
 coverImage: "/assets/podcast/s02e01/thomas.jpg"
 date: "2021-04-07T13:37:01.337Z"
