@@ -1,0 +1,25 @@
+import Layout from "../components/layout";
+import Container from "../components/container";
+
+# Contact
+
+We zijn op een aantal manieren te bereiken:
+- Door te [mailen](mailto:info@codeklets.nl)
+- Door ons aan te spreken op Twitter : [@codeklets](https://twitter.com/codeklets)
+- Op de [CodeKlets Slack](https://join.slack.com/t/codeklets/shared_invite/enQtNzQ4MTI4MTMxNzY2LWYzNTk0NzE1YzdkNDczYTg1MDBjZDIyZjkzMThmYTBkZTY3ZTBhNDYyOGY4OWQxZGExM2Q5NzA2ZDM0NGY1ZGM)
+
+Je kunt ook de individuele teamleden bereiken:
+- Bernard Kroes (he/his) - [mail](mailto:bernard@codeklets.nl)
+- Johnny Dongelmans (he/his) - [mail](mailto:johnny@codeklets.nl)
+- Pauline Vos (she/her) - [mail](mailto:pauline@codeklets.nl)
+- Kishen Simbhoedatpanday (he/his) - [mail](mailto:kishen@codeklets.nl)
+- Saber Karmous (he/his) - [mail](mailto:saber@codeklets.nl)
+
+export default ({ children, preview }) => 
+    <Layout preview={preview}>
+      <Container>
+        <article
+          className="prose lg:prose-xl"
+        >{children}</article>
+      </Container>
+    </Layout>

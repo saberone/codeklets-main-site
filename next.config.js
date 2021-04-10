@@ -2,45 +2,39 @@
 const withReactSvg = require("next-react-svg");
 const path = require("path");
 
-module.exports = withPlugins([
-  withReactSvg,
-  {
-    include: path.resolve(__dirname, "assets/svg"),
-    webpack(config, options) {
-      return config;
-    },
+const withMDX = require("@next/mdx")({
+  extension: /\.mdx?$/,
+});
+
+const nextConfig = {
+  future: {
+    webpack5: true,
   },
-]);
-*/
-/* module.exports = withReactSvg({
-  future: {},
-  include: path.resolve(__dirname, "assets/svg"),
   webpack(config, options) {
     return config;
   },
-});*/
-/*
-module.exports = {
-  webpack(config) {
-    const fileLoaderRule = config.module.rules.find(
-      (rule) => rule.test && rule.test.test(".svg")
-    );
-    fileLoaderRule.exclude = /\.svg$/;
-    config.module.rules.push({
-      test: /\.svg$/,
-      loader: require.resolve("@svgr/webpack"),
-    });
-    return config;
-  },
-}; */
-
-module.exports = {
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/,
-      use: ["@svgr/webpack"],
-    });
-
-    return config;
-  },
 };
+
+module.exports = withPlugins(
+  [
+    [
+      withReactSvg,
+      {
+        include: path.resolve(__dirname, "assets/svg"),
+      },
+    ],
+    [
+      withMDX,
+      {
+        pageExtensions: ["js", "jsx", "mdx"],
+      },
+    ],
+  ],
+  nextConfig
+);
+
+/* module.exports = withReactSvg({
+    
+  include: path.resolve(__dirname, "assets/svg"),
+  
+}); */
