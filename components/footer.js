@@ -10,7 +10,14 @@ export default function Footer() {
               CodeKlets info
             </h2>
             <ul className="space-y-4">
-              <li>Contact</li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="hover:text-gray-900 transition-colors duration-200"
+                >
+                  Contact
+                </Link>
+              </li>
 
               <li>
                 <Link
@@ -26,6 +33,14 @@ export default function Footer() {
                   className="hover:text-gray-900 transition-colors duration-200"
                 >
                   Nieuwsbrief
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/supportus"
+                  className="hover:text-gray-900 transition-colors duration-200"
+                >
+                  Steun
                 </Link>
               </li>
               <li>

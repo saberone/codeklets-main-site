@@ -2,19 +2,39 @@ const withPlugins = require("next-compose-plugins");
 const withReactSvg = require("next-react-svg");
 const path = require("path");
 
-/* module.exports = withPlugins([
-  withReactSvg,
-  {
-    include: path.resolve(__dirname, 'assets/svg')
-  },
-]);*/
+const withMDX = require("@next/mdx")({
+  extension: /\.mdx?$/,
+});
 
-module.exports = withReactSvg({
+const nextConfig = {
   future: {
     webpack5: true,
-  },  
-  include: path.resolve(__dirname, "assets/svg"),
+  },
   webpack(config, options) {
     return config;
   },
-});
+};
+
+module.exports = withPlugins(
+  [
+    [
+      withReactSvg,
+      {
+        include: path.resolve(__dirname, "assets/svg"),
+      },
+    ],
+    [
+      withMDX,
+      {
+        pageExtensions: ["js", "jsx", "mdx"],
+      },
+    ],
+  ],
+  nextConfig
+);
+
+/* module.exports = withReactSvg({
+    
+  include: path.resolve(__dirname, "assets/svg"),
+  
+}); */
