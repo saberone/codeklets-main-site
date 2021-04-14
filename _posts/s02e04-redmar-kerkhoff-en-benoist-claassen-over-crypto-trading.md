@@ -38,7 +38,7 @@ Benoist is ook een echte Entrepreneur(d) :-) en is de eigenaar van Altrady en ee
 00:11:05 Hoe het platform technisch opgebouwd is (Elixir vs. Rust, performance en data afhandeling)  
 00:24:20 Crypto platform en Quality Assurance en Releasing  
 00:29:45 Andere technologieeen die gebruikt zijn (Ruby, React en container tech)  
-00:38:13 Hoe test je een Crypto Trading platform? 
+00:38:13 Hoe test je een Crypto Trading platform?  
 00:48:36 De toekomst van Crypto Trading  
 00:48:44 Developer Dilemmas  
 01:10:00 Rant van Dev-land - licentieproblemen omtrent Ruby mimemagic  
