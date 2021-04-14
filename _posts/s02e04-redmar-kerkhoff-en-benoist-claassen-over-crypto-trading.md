@@ -12,8 +12,8 @@ season: 2
 episode: 4
 ---
 
-Redmar is een entrepreneur(d) en eigenaar van Creative Code. Verder hackt hij graag in Rust, Elixir & Ruby
-Benoist is ook een echte Entrepreneur(d) :-) en is de eigenaar van Altrady en een echte Crypto Trader
+Redmar is een entrepreneur(d) en eigenaar van Creative Code. Verder hackt hij graag in Rust, Elixir & Ruby.  
+Benoist is ook een echte Entrepreneur(d) :-) en is de eigenaar van Altrady en een echte Crypto Trader.
 
 ## Met hosts
 
@@ -57,7 +57,7 @@ Benoist is ook een echte Entrepreneur(d) :-) en is de eigenaar van Altrady en ee
 
 - [Licentieproblemen omtrent Ruby mimemagic](https://github.com/mimemagicrb/mimemagic/issues/97)
 - [Boek van oud-gast Jeroen Leenarts](https://leanpub.com/leaddeveloper/c/codeklets)
-Inclusief een leuke korting voor de CodeKlets luisteraars via deze link!
+(inclusief een leuke korting voor de CodeKlets luisteraars via deze link!)
 
 ### Redmar
 - [Programming Phoenix Liveview - Pragmatic Programmer](https://pragprog.com/titles/liveview/programming-phoenix-liveview/)
