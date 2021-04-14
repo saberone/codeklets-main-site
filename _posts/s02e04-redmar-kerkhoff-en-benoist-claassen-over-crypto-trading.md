@@ -12,10 +12,10 @@ season: 2
 episode: 4
 ---
 
-Redmar is een entrepreneur(d), eigenaar van Creative Code. Verder hackt hij graag in rust elixir & ruby.
-Benoist Claassen is ook een echte Entrepreneur(d) :-) en is de eigenaar van Altrady en is een echte Crypto Trader
+Redmar is een entrepreneur(d) en eigenaar van Creative Code. Verder hackt hij graag in Rust, Elixir & Ruby
+Benoist is ook een echte Entrepreneur(d) :-) en is de eigenaar van Altrady en een echte Crypto Trader
 
-## Met host
+## Met hosts
 
 - Kishen Simbhoedatpanday - [LinkedIn](https://www.linkedin.com/in/kishensimbhoedatpanday/) [Twitter](https://twitter.com/kishenpanday)
 - Johnny Dongelmans - [LinkedIn](https://www.linkedin.com/in/johnnydongelmans/)
@@ -33,17 +33,17 @@ Benoist Claassen is ook een echte Entrepreneur(d) :-) en is de eigenaar van Altr
 ## Onderwerpen
 
 00:00:06 Intro  
-00:02:35 Crypto Trading? Wat is dat?
-00:04:05 Crypto Trading platform Altrady
-00:11:05 Hoe het platform technisch opgebouwd is (Elixir vs. Rust, performance en data afhandeling)
-00:24:20 Crypto platform en Quality Assurance en Releasing
-00:29:45 Andere technologieeen die gebruikt zijn (Ruby, React en container tech)
-00:38:13 Hoe test je een Crypto Trading platform?
-00:48:36 De toekomst van Crypto Trading
-00:48:44 Developer Dilemmas
-01:10:00 Rant van Dev-land - licentieproblemen omtrent Ruby mimemagic
-01:23:00 Tips voor onze luisteraars
-01:36:17 Outro  
+00:02:35 Crypto Trading? Wat is dat?  
+00:04:05 Crypto platform Altrady  
+00:11:05 Hoe het platform technisch opgebouwd is (Elixir vs. Rust, performance en data afhandeling)  
+00:24:20 Crypto platform en Quality Assurance en Releasing  
+00:29:45 Andere technologieeen die gebruikt zijn (Ruby, React en container tech)  
+00:38:13 Hoe test je een Crypto Trading platform? 
+00:48:36 De toekomst van Crypto Trading  
+00:48:44 Developer Dilemmas  
+01:10:00 Rant van Dev-land - licentieproblemen omtrent Ruby mimemagic  
+01:23:00 Tips voor onze luisteraars  
+01:36:17 Outro
 
 ## Tips
 
@@ -57,17 +57,15 @@ Benoist Claassen is ook een echte Entrepreneur(d) :-) en is de eigenaar van Altr
 
 - [Licentieproblemen omtrent Ruby mimemagic](https://github.com/mimemagicrb/mimemagic/issues/97)
 - [Boek van oud-gast Jeroen Leenarts](https://leanpub.com/leaddeveloper/c/codeklets)
-Inclusief 50% korting voor de CodeKlets luisteraars!
+Inclusief een leuke korting voor de CodeKlets luisteraars via deze link!
 
 ### Redmar
-
 - [Programming Phoenix Liveview - Pragmatic Programmer](https://pragprog.com/titles/liveview/programming-phoenix-liveview/)
 
 Benoist
 - [Crypto!](https://www.altrady.com/)
 
 ## CodeKlets links
-
 - [CodeKlets](https://codeklets.nl)
 - [CodeKlets Nieuwsbrief](https://codeklets.nl/newsletter)
 - [CodeKlets Slack](https://join.slack.com/t/codeklets/shared_invite/enQtNzQ4MTI4MTMxNzY2LWYzNTk0NzE1YzdkNDczYTg1MDBjZDIyZjkzMThmYTBkZTY3ZTBhNDYyOGY4OWQxZGExM2Q5NzA2ZDM0NGY1ZGM)
