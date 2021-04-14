@@ -33,6 +33,24 @@ Benoist Claassen is ook een echte Entrepreneur(d) :-) en is de eigenaar van Altr
 ## Onderwerpen
 
 00:00:06 Intro  
+00:02:35 Crypto Trading? Wat is dat?
+00:04:05 Crypto Trading platform Altrady
+00:11:05 Hoe het platform technisch opgebouwd is (Elixir vs. Rust, performance en data afhandeling)
+00:24:20 Crypto platform en Quality Assurance en Releasing
+00:29:45 Andere technologieeen die gebruikt zijn (Ruby, React en container tech)
+00:38:13 Hoe test je een Crypto Trading platform?
+
+Deel 2: Developer Dilemma’s
+Ping Pong of Foosball
+Developer doing design of designer doing development
+100% CPU of 2% batterij
+Deel 3: Vaste rubrieken 1:20 - 1:30 (ish)
+Rant van dev-land
+Mooie f-up: licentieproblemen omtrent Ruby mimemagic
+https://github.com/mimemagicrb/mimemagic/issues/97
+
+
+
 01:24:44 Developer Dilemmas
 01:29:08 Tips  
 01:32:34 Outro  
