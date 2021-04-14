@@ -39,32 +39,23 @@ Benoist Claassen is ook een echte Entrepreneur(d) :-) en is de eigenaar van Altr
 00:24:20 Crypto platform en Quality Assurance en Releasing
 00:29:45 Andere technologieeen die gebruikt zijn (Ruby, React en container tech)
 00:38:13 Hoe test je een Crypto Trading platform?
-
-Deel 2: Developer Dilemma’s
-Ping Pong of Foosball
-Developer doing design of designer doing development
-100% CPU of 2% batterij
-Deel 3: Vaste rubrieken 1:20 - 1:30 (ish)
-Rant van dev-land
-Mooie f-up: licentieproblemen omtrent Ruby mimemagic
-https://github.com/mimemagicrb/mimemagic/issues/97
-
-
-
-01:24:44 Developer Dilemmas
-01:29:08 Tips  
-01:32:34 Outro  
+00:48:36 De toekomst van Crypto Trading
+00:48:44 Developer Dilemmas
+01:10:00 Rant van Dev-land - licentieproblemen omtrent Ruby mimemagic
+01:23:00 Tips voor onze luisteraars
+01:36:17 Outro  
 
 ## Tips
 
 ### Kishen
-
+- [Snyk - Security & Open Source License Compliance Management](https://snyk.io/)
 - [Microsoft Playright](https://github.com/microsoft/playwright)
 - [Speed comparison](https://blog.checklyhq.com/puppeteer-vs-selenium-vs-playwright-speed-comparison/)
 - [Selenium vs Playwright](https://www.testim.io/blog/puppeteer-selenium-playwright-cypress-how-to-choose/)
 
 ### Johnny
 
+- [Licentieproblemen omtrent Ruby mimemagic](https://github.com/mimemagicrb/mimemagic/issues/97)
 - [Boek van oud-gast Jeroen Leenarts](https://leanpub.com/leaddeveloper/c/codeklets)
 Inclusief 50% korting voor de CodeKlets luisteraars!
 
