@@ -2,7 +2,7 @@
 title: "Redmar Kerkhoff & Benoist Claassen over Crypto Trading"
 excerpt: "We gaan het met Redmar & Benoist hebben over Altrady en de technologie daarachter"
 coverImage: "/assets/podcast/s02e01/thomas.jpg"
-date: "2021-04-14T13:37:01.337Z"
+date: "2021-04-22T13:37:01.337Z"
 author:
   name: Kishen Simbhoedatpanday
   picture: "/assets/blog/authors/jj.jpeg"
@@ -32,18 +32,19 @@ Benoist is ook een echte Entrepreneur(d) :-) en is de eigenaar van Altrady en ee
 
 ## Onderwerpen
 
-00:00:06 Intro  
-00:02:35 Crypto Trading? Wat is dat?  
-00:04:05 Crypto platform Altrady  
-00:11:05 Hoe het platform technisch opgebouwd is (Elixir vs. Rust, performance en data afhandeling)  
-00:24:20 Crypto platform en Quality Assurance en Releasing  
-00:29:45 Andere technologieeen die gebruikt zijn (Ruby, React en container tech)  
-00:38:13 Hoe test je een Crypto Trading platform?  
-00:48:36 De toekomst van Crypto Trading  
-00:48:44 Developer Dilemmas  
-01:10:00 Rant van Dev-land - licentieproblemen omtrent Ruby mimemagic  
-01:23:00 Tips voor onze luisteraars  
-01:36:17 Outro
+00:00:30 - Intro  
+00:02:30 - Crypto Trading? Wat is dat?  
+00:04:37 - Crypto platform Altrady  
+00:12:24 - Hoe het platform technisch opgebouwd is (Elixir vs. Rust, performance en data afhandeling)  
+00:22:24 - Crypto platform en Quality Assurance en Releasing  
+00:25:39 - Zou Bitcoin beter gereguleerd worden?  
+00:29:35 - Andere technologieeen die gebruikt zijn (Ruby, React en container tech)   
+00:38:16 - Hoe test je een Crypto Trading platform?  
+00:48:23 - De toekomst van Crypto Trading  
+00:58:35 - Developer Dilemmas  
+01:10:16 - Rant in Dev-land - Licentieproblemen omtrent Ruby mimemagic  
+01:23:23 - Tips  
+01:37:10 - Outro
 
 ## Tips
 
