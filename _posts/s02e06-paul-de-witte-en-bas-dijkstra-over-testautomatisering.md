@@ -39,12 +39,12 @@ Bas Dijkstra kennen de meeste test automation developers van zijn testautomatise
 00:23:35 - Zijn testing en testautomatisering, software development practices?  
 00:32:24 - Hoe krijg je testautomatisering in een team?  
 00:42:00 - Zijn testers dan niet meer nodig?  
-00:56:30 - Les geven in testen. 
-01:02:00 - Wat is Low code testautomatisering?
-01:12:00 - Tips om testen beter ter automatiseren. 
-01:17:00 - Developers Delimas. 
-01:33:00 - Tips. 
-01:45:00 - Outro. 
+00:56:30 - Les geven in testen.  
+01:02:00 - Wat is Low code testautomatisering?  
+01:12:00 - Tips om testen beter ter automatiseren.  
+01:17:00 - Developers Delimas.  
+01:33:00 - Tips.  
+01:45:00 - Outro.  
 
 ## Tips
 
