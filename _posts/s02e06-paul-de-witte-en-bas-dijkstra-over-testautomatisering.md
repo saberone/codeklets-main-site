@@ -2,7 +2,7 @@
 title: "Paul de Witte en Bas Dijkstra over Testautomatisering"
 excerpt: "Paul de Witte en Bas Dijkstra vertellen hun ervaringen en advies rondom Testautomatisering"
 coverImage: "/assets/podcast/s02e01/thomas.jpg"
-date: "2021-05-05T13:37:01.337Z"
+date: "2021-05-10T13:37:01.337Z"
 author:
   name: Kishen Simbhoedatpanday
   picture: "/assets/blog/authors/jj.jpeg"
