@@ -42,7 +42,7 @@ Bas Dijkstra kennen de meeste test automation developers van zijn testautomatise
 00:56:30 - Les geven in testen.  
 01:02:00 - Wat is Low code testautomatisering?  
 01:12:00 - Tips om testen beter ter automatiseren.  
-01:17:00 - Developer Dilemmas
+01:17:00 - Developer Dilemmas.  
 01:33:00 - Tips.  
 01:45:00 - Outro.  
 
