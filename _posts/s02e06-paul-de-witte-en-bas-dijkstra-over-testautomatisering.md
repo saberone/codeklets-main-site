@@ -35,7 +35,7 @@ Bas Dijkstra kennen de meeste test automation developers van zijn testautomatise
 
 00:00:30 - Intro  
 00:02:14 - Hoe zijn jullie begonnen met programmeren?  
-00:10:15 - Is testautomatisering een wassenneus?  
+00:10:15 - Is testautomatisering een wassen neus?  
 00:23:35 - Zijn testing en testautomatisering, software development practices?  
 00:32:24 - Hoe krijg je testautomatisering in een team?  
 00:42:00 - Zijn testers dan niet meer nodig?  
