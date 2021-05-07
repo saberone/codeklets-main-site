@@ -56,7 +56,7 @@ We hebben het deze aflevering over Cyber Security, Hacking en Privacy. Onze gast
 - [Open Web Application Security Project (OWASP)](https://owasp.org/)
 - [OWASP® Zed Attack Proxy (ZAP)](https://www.zaproxy.org/)
 - [Qualys SSL tests](https://www.ssllabs.com/ssltest/)
-- [OWASP Books](https://www.amazon.com/Books-OWASP/s?rh=n%3A283155%2Cp_27%3AOWASP)
+- [OWASP Books](https://www.lulu.com/spotlight/owasp/)
 
 ### Saber
 - [Darknet Diaries](https://darknetdiaries.com/)
