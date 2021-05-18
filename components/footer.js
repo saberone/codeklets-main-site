@@ -93,6 +93,14 @@ export default function Footer() {
               <li>
                 <a
                   className="hover:text-gray-900 transition-colors duration-200"
+                  href="https://deheetste.nl/"
+                >
+                  De Heetste 🌶️ Podcast
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-gray-900 transition-colors duration-200"
                   href="https://beginnenmetbitcoin.com/"
                 >
                   Beginnen met Bitcoin
