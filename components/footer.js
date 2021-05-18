@@ -109,6 +109,14 @@ export default function Footer() {
               <li>
                 <a
                   className="hover:text-gray-900 transition-colors duration-200"
+                  href="https://signaalwaarde.nl/"
+                >
+                  Signaalwaarde
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-gray-900 transition-colors duration-200"
                   href="https://appforce1.net/podcast/"
                 >
                   AppForce1
