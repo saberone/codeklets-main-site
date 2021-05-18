@@ -1,8 +1,8 @@
 ---
-title: "Paul de Witte en Bas Dijkstra over Testautomatisering"
-excerpt: "Paul de Witte en Bas Dijkstra vertellen hun ervaringen en advies rondom Testautomatisering"
+title: "Paul de Witt en Bas Dijkstra over Testautomatisering"
+excerpt: "Paul de Witt en Bas Dijkstra vertellen hun ervaringen en advies rondom Testautomatisering"
 coverImage: "/assets/podcast/s02e01/thomas.jpg"
-date: "2021-05-10T13:37:01.337Z"
+date: "2021-05-18T13:37:01.337Z"
 author:
   name: Kishen Simbhoedatpanday
   picture: "/assets/blog/authors/jj.jpeg"
@@ -33,18 +33,18 @@ Bas Dijkstra kennen de meeste test automation developers van zijn testautomatise
 
 ## Onderwerpen
 
-00:00:30 - Intro  
-00:02:14 - Hoe zijn jullie begonnen met programmeren?  
-00:10:15 - Is testautomatisering een wassen neus?  
-00:23:35 - Zijn testing en testautomatisering, software development practices?  
-00:32:24 - Hoe krijg je testautomatisering in een team?  
-00:42:00 - Zijn testers dan niet meer nodig?  
-00:56:30 - Les geven in testen.  
-01:02:00 - Wat is Low code testautomatisering?  
-01:12:00 - Tips om testen beter ter automatiseren.  
-01:17:00 - Developer Dilemmas.  
-01:33:00 - Tips.  
-01:45:00 - Outro.  
+00:00:30 - Intro   
+00:02:56 - Hoe zijn jullie begonnen met programmeren?  
+00:10:20 - Is testautomatisering een wassen neus?  
+00:24:25 - Zijn testing en testautomatisering, software development practices?  
+00:32:49 - Hoe krijg je testautomatisering in een team?  
+00:42:30 - Zijn testers niet meer nodig?  
+00:56:55 - Les geven in testen  
+01:02:54 - Wat is Low code testautomatisering?  
+01:12:58 - Tips om testen beter ter automatiseren  
+01:18:16 - Developer Dilemmas  
+01:33:51 - Tips  
+01:45:39 - Outro   
 
 ## Tips
 
