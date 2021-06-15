@@ -37,6 +37,31 @@ export default function Nav() {
       <div className="flex items-center space-x-6 sm:space-x-10 ml-4 sm:ml-10">
         <Link
           className="text-base leading-6 font-medium hover:text-gray-600 transition-colors duration-200 py-2"
+          href="/contact"
+        >
+          <a className="flex items-center text-xs uppercase font-bold leading-snug hover:text-gray-600 transition-colors duration-200 hover:opacity-75">
+            <span className="hidden sm:inline">Contact</span>
+          </a>
+        </Link>
+
+        <Link
+          className="text-base leading-6 font-medium hover:text-gray-600 transition-colors duration-200 py-2"
+          href="/supportus"
+        >
+          <a className="flex items-center text-xs uppercase font-bold leading-snug hover:text-gray-600 transition-colors duration-200 hover:opacity-75">
+            <span className="hidden sm:inline">Steun ons</span>
+          </a>
+        </Link>
+        <Link
+          className="text-base leading-6 font-medium hover:text-gray-600 transition-colors duration-200 py-2"
+          href="/about"
+        >
+          <a className="flex items-center text-xs uppercase font-bold leading-snug hover:text-gray-600 transition-colors duration-200 hover:opacity-75">
+            <span className="hidden sm:inline">Over ons</span>
+          </a>
+        </Link>
+        <Link
+          className="text-base leading-6 font-medium hover:text-gray-600 transition-colors duration-200 py-2"
           href="/newsletter"
         >
           <a className="flex items-center text-xs uppercase font-bold leading-snug hover:text-gray-600 transition-colors duration-200 hover:opacity-75">
