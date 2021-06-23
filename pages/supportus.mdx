@@ -6,32 +6,30 @@ import Link from "next/link";
 
 CodeKlets wordt met veel liefde gemaakt door Bernard, Johnny, Pauline, Kishen en Saber. Dat betekent dat we graag onze tijd steken in het voorbereiden en maken van de podcast.
 
-Maar dat betekent ook dat we blijven kijken naar hoe we de podcast beter kunnen maken, en hoe we meer ontwikkelaars kunnen bereiken. En daar kunnen we jullie hulp goed bij gebruiken. En nee, dat betekent niet 
-meteen : "lalalala. GELD!". Je zou ons ook op andere manieren kunnen helpen:
+We blijven ook kijken naar hoe we de podcast beter kunnen maken, en hoe we meer ontwikkelaars kunnen bereiken. En daar kunnen we jullie hulp goed bij gebruiken. En nee, dat betekent niet
+meteen : "lalalala. GELD!". Je kunt ons ook op allerlei andere manieren helpen:
 
 - Aandragen van interessante gasten voor de podcast
-- Vertel je collega's, vriendinnen/vrienden, kenissen en familie over ons
-- Geef ons je feedback over de podcast
+- Je collega's, vriendinnen/vrienden, kenissen en familie vertellen over ons
+- Door feedback te geven over de podcast
+- Leuke onderwerpen die wij gemist hebben voorstellen
 
 Op onze <Link href="/contact">contactpagina</Link> kun je vinden hoe we te bereiken zijn.
 
 ## Donaties
 
-Het is ook mogelijk om ons te steunen door te doneren via een van de volgende wegen: 
+Het is ook mogelijk om ons te steunen door te doneren via een van de volgende wegen:
 
-- [Vriend van de show](hhttps://vriendvandeshow.nl/codeklets/donateurs)
-- Bitcoin
-- Ethereum
+- [Vriend van de show](https://vriendvandeshow.nl/codeklets/donateurs)
+- [Via iDeal https://bunq.me/codeklets](https://bunq.me/codeklets)
+- Voor de vooruitstrevende luisteraars is het ook mogelijk om te steunen via een podcast speler die podcasting 2.0 ondersteunt en waarmee je satoshi's kunt overmaken
 
-Donateurs krijgen natuurlijk een shoutout, en krijgen toegang tot het supergeheime kanaal op onze Slack. En krijgen in de toekomst ook de mogelijkheid om mee te doen aan een opname.
+Donateurs krijgen natuurlijk een shoutout in de podcast, en toegang tot het supergeheime kanaal op onze Slack. Vergeet niet om je naam of nickname te vermelden als je een donatie maakt, anders wordt het geven van een shout out, uitnodigen in het Slack kanaal, of eventueel ontvangen van goodies wat lastiger.
 
-
-
-export default ({ children, preview }) => 
-    <Layout preview={preview}>
-      <Container>
-        <article
-          className="prose lg:prose-xl"
-        >{children}</article>
-      </Container>
-    </Layout>
+export default ({ children, preview }) => (
+  <Layout preview={preview}>
+    <Container>
+      <article className="prose lg:prose-xl">{children}</article>
+    </Container>
+  </Layout>
+);
