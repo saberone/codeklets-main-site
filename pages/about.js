@@ -69,8 +69,8 @@ export default function About({ page, preview }) {
             <h6 className="mt-2 text-sm font-medium">Host</h6>
 
             <p className="text-xs text-gray-500 text-center mt-3">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab enim
-              molestiae nulla.
+              Ruby developer, doet onder andere dingen met beveiliging en online
+              identificatie.
             </p>
 
             <ul className="flex flex-row mt-4 space-x-2">
@@ -80,6 +80,14 @@ export default function About({ page, preview }) {
                   className="flex items-center justify-center h-8 w-8 border rounded-full text-gray-800 border-gray-800"
                 >
                   <FaLinkedin />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/jdongelmans"
+                  className="flex items-center justify-center h-8 w-8 border rounded-full text-gray-800 border-gray-800"
+                >
+                  <FaGithub />
                 </a>
               </li>
             </ul>
