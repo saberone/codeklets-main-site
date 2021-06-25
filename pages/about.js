@@ -30,8 +30,7 @@ export default function About({ page, preview }) {
             <h6 className="mt-2 text-sm font-medium">Host</h6>
 
             <p className="text-xs text-gray-500 text-center mt-3">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab enim
-              molestiae nulla.
+              Van GFA-Basic toen tot Ruby, Swift en Objective-C nu. Old school. Pragmatisch. It never hurts to help!
             </p>
 
             <ul className="flex flex-row mt-4 space-x-2">
