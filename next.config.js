@@ -19,7 +19,7 @@ module.exports = withPlugins([
     return config;
   },
 });*/
-
+/*
 module.exports = {
   webpack(config) {
     const fileLoaderRule = config.module.rules.find(
@@ -30,6 +30,17 @@ module.exports = {
       test: /\.svg$/,
       loader: require.resolve("@svgr/webpack"),
     });
+    return config;
+  },
+}; */
+
+module.exports = {
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ["@svgr/webpack"],
+    });
+
     return config;
   },
 };
