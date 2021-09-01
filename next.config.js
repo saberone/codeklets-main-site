@@ -1,4 +1,4 @@
-/*const withPlugins = require("next-compose-plugins");
+const withPlugins = require("next-compose-plugins");
 const withReactSvg = require("next-react-svg");
 const path = require("path");
 
@@ -7,9 +7,6 @@ const withMDX = require("@next/mdx")({
 });
 
 const nextConfig = {
-  future: {
-    webpack5: true,
-  },
   webpack(config, options) {
     return config;
   },
