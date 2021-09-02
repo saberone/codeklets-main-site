@@ -29,7 +29,7 @@ function Newsletter({ preview }) {
               Schrijf je hier in voor de CodeKlets Developer nieuwsbrief. Een
               tweewekelijkse nieuwsbrief met interessante links naar zaken die
               developers interessant vinden, en een klein beetje duiding op zijn
-              CodeKlets'.
+              CodeKlets&apos;.
             </p>
             <Subscribe onSubscribed={handleSubscribed}></Subscribe>
           </div>

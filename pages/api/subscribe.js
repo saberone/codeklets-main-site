@@ -1,6 +1,6 @@
 import fetch from "isomorphic-unfetch";
 
-export default async (req, res) => {
+const subscribe = async (req, res) => {
   // 1. Destructure the email address from the request body.
   const { email, firstName, lastName } = req.body;
 
@@ -12,7 +12,7 @@ export default async (req, res) => {
   try {
     // 3. Fetch the environment variables.
     const API_KEY = process.env.GETREVUE_API_KEY;
-
+    console.log("Api key", API_KEY);
     const data = {
       email: email,
       first_name: firstName,
@@ -30,16 +30,19 @@ export default async (req, res) => {
       method: "POST",
     });
 
-    // 5. Swallow any errors from getrevue and return a better error message.
-    if (response.status >= 400) {
-      return res.status(400).json({
-        error: `Er ging wat mis tijdens het aanmelden voor de nieuwsbrief. Stuur een e-mail naar codeklets@protonmail.com en dan maken we het in orde.`,
-      });
+    if (response.ok) {
+      // 5. If we made it this far, it was a success! 🎉
+      return res.status(201).json({ error: "" });
     }
 
-    // 6. If we made it this far, it was a success! 🎉
-    return res.status(201).json({ error: "" });
+    // 6. something went wrong
+    return res.status(400).json({
+      error: `Er ging wat mis tijdens het aanmelden voor de nieuwsbrief. Stuur een e-mail naar codeklets@protonmail.com en dan maken we het in orde.`,
+    });
   } catch (error) {
+    console.log("Error", error);
     return res.status(500).json({ error: error.message || error.toString() });
   }
 };
+
+export default subscribe;
