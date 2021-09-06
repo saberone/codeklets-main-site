@@ -9,9 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@mdx-js/loader": "^1.6.22",
-    "@mdx-js/react": "^1.6.22",
-    "@next/mdx": "^11.1.2",
     "@tailwindcss/typography": "^0.4.1",
     "classnames": "^2.2.6",
     "cross-env": "^7.0.3",
@@ -33,7 +30,8 @@
     "remark-html": "^14.0.0",
     "rss-parser": "^3.12.0",
     "sass": "1.38.2",
-    "tailwindcss": "2.2.9"
+    "tailwindcss": "2.2.9",
+    "xdm": "^2.0.2"
   },
   "devDependencies": {
     "eslint": "7.32.0",
