@@ -1,0 +1,32 @@
+import Layout from "../components/layout";
+import Container from "../components/container";
+import Person from "../components/person";
+import team from "../data/team";
+
+# Over CodeKlets
+
+De CodeKlets podcast is gestart door Kishen & Saber omdat ze een Nederlandstalige podcast wilden maken over software ontwikkeling, die naast informatief ook een beetje luchtig is. Door verschillende sub-categorieën aan bod te laten komen
+willen ze daarmee proberen om de luisteraar een kijkje in de keuken te geven bij de "buren". Zo zou je als beginnend of doorgewinterde Java ontwikkelaar toch te weten kunnen komen wat Rust development zo leuk maakt, en natuurlijk ook andersom.
+De CodeKlets podcast is dus niet toegespitst op een specifiek platform, of een bepaald soort software ontwikkeling, maar we proberen een zo'n breed mogelijk spectrum aan onderwerpen aan bod te laten komen.
+
+Omdat Kishen & Saber zelf ook wel beseften dat luisteraars niet alleen naar hun eigen ervaringen willen luisteren, hadden ze bedacht dat ze steeds een gast wilden uitnodigen die in de podcast komt vertellen over wat het nou zo leuk
+maakt om software ontwikkelaar te zijn.
+
+Na een tijd is het CodeKlets team uitgebreid met 3 extra hosts, om ook wat meer verschillende invalshoeken aan tafel te brengen. Na de opname van de 1e aflevering probeerden Kishen & Saber Pauline te strikken als host, maar zij was helaas voor ons
+een tijd naar het buitenland verhuisd. Later hebben Bernard en Johnny het team versterkt, en nadat Pauline weer terug in Nederland was, was ook zij aan boord.
+
+## Het CodeKlets Team:
+
+<div className="grid grid-cols-2 md:grid-cols-3 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12">
+  {team.map((person, i) => (
+    <Person key={i} {...person} />
+  ))}
+</div>
+
+export default ({ children, preview }) => (
+  <Layout preview={preview}>
+    <Container>
+      <article className="prose max-w-6xl lg:prose-xl mb-8">{children}</article>
+    </Container>
+  </Layout>
+);
