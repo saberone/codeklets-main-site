@@ -1,0 +1,85 @@
+import Layout from "../components/layout";
+import Container from "../components/container";
+
+import Person from "../components/person";
+
+export default function About({ page, preview }) {
+  const team = [
+    {
+      fullName: "Bernard Kroes",
+      role: "Co-host",
+      imageSrc: "/images/team/bernard_400x400.jpg",
+      socials: {
+        linkedIn: "https://www.linkedin.com/in/bernard-kroes-5050a82/",
+        github: "https://github.com/bernardkroes",
+      },
+    },
+    {
+      fullName: "Johnny Dongelmans",
+      role: "Co-host",
+      imageSrc: "/images/team/johnny_400x400.jpg",
+      socials: {
+        linkedIn: "https://www.linkedin.com/in/johnnydongelmans/",
+        github: "https://github.com/jdongelmans",
+      },
+    },
+    {
+      fullName: "Pauline Vos",
+      role: "Co-host",
+      imageSrc: "/images/team/pauline_400x400.jpg",
+      socials: {
+        linkedIn: "https://www.linkedin.com/in/bernard-kroes-5050a82/",
+        github: "https://github.com/bernardkroes",
+      },
+    },
+    {
+      fullName: "Kishen Simbhoedatpanday",
+      role: "Host",
+      imageSrc: "/images/team/kishen_400x400.jpg",
+      socials: {
+        linkedIn: "https://www.linkedin.com/in/bernard-kroes-5050a82/",
+        github: "https://github.com/bernardkroes",
+      },
+    },
+    {
+      fullName: "Saber Karmous",
+      role: "Host",
+      imageSrc: "/images/team/saber_400x400.jpg",
+      socials: {
+        linkedIn: "https://www.linkedin.com/in/bernard-kroes-5050a82/",
+        github: "https://github.com/bernardkroes",
+      },
+    },
+  ];
+
+  return (
+    <Layout preview={preview}>
+      <Container>
+        <div className="bg-white py-6 sm:py-8 lg:py-12">
+          <div className="max-w-screen-xl px-4 md:px-8 mx-auto">
+            <div className="mb-10 md:mb-16">
+              <h1
+                className="text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold
+ tracking-tight mb-2 sm:mb-3 text-gray-900"
+              >
+                Het CodeKlets Team
+              </h1>
+
+              <p className="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pharetra turpis nunc justo, amet, dolor ut fermentum. Ac augue
+                bibendum orci pulvinar cras consequat nulla.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-x-4 lg:gap-x-8 gap-y-8 lg:gap-y-12">
+              {team.map((person, i) => (
+                <Person key={i} {...person} />
+              ))}
+            </div>
+          </div>
+        </div>
+      </Container>
+    </Layout>
+  );
+}
