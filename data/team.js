@@ -2,6 +2,8 @@ const team = [
   {
     fullName: "Bernard Kroes",
     role: "Co-host",
+    story:
+      "Programmeert al veel te lang, tegenwoordig niet meer in GFA Basic, maar vooral in Swift, Objective-C en Ruby.",
     imageSrc: "/images/team/bernard_400x400.jpg",
     socials: {
       linkedIn: "https://www.linkedin.com/in/bernard-kroes-5050a82/",
