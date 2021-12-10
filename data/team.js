@@ -36,6 +36,8 @@ const team = [
     fullName: "Kishen Simbhoedatpanday",
     role: "Host",
     imageSrc: "/images/team/kishen_400x400.jpg",
+    story: 
+      "Software engineer met een tik voor kwaliteit en testen",
     socials: {
       linkedIn: "https://www.linkedin.com/in/kishensimbhoedatpanday/",
       twitter: "https://twitter.com/kishenpanday"
