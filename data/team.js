@@ -40,7 +40,9 @@ const team = [
       "Software engineer met een tik voor kwaliteit en testen",
     socials: {
       linkedIn: "https://www.linkedin.com/in/kishensimbhoedatpanday/",
-      twitter: "https://twitter.com/kishenpanday"
+      twitter: "https://twitter.com/kishenpanday",
+      github: "https://github.com/eskape",
+      personal: "https://kishenpanday.medium.com/"
     }
   },
   {
