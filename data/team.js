@@ -24,6 +24,8 @@ const team = [
   {
     fullName: "Pauline Vos",
     role: "Co-host",
+    story:
+      "Software developer en consultant, vooral gespecialiseerd in PHP en Git. Spreekt graag op conferenties over software development en geeft trainingen.",
     imageSrc: "/images/team/pauline_400x400.jpg",
     socials: {
       linkedIn: "https://www.linkedin.com/in/paulinepvos/",
@@ -36,8 +38,7 @@ const team = [
     fullName: "Kishen Simbhoedatpanday",
     role: "Host",
     imageSrc: "/images/team/kishen_400x400.jpg",
-    story: 
-      "Software engineer met een tik voor kwaliteit en testen",
+    story: "Software engineer met een tik voor kwaliteit en testen.",
     socials: {
       linkedIn: "https://www.linkedin.com/in/kishensimbhoedatpanday/",
       twitter: "https://twitter.com/kishenpanday",
