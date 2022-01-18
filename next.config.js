@@ -1,33 +1,9 @@
 const withPlugins = require("next-compose-plugins");
 const withReactSvg = require("next-react-svg");
 const path = require("path");
+const nextSafe = require("next-safe");
 
-const securityHeaders = [
-  {
-    key: "Strict-Transport-Security",
-    value: "max-age=63072000; includeSubDomains; preload",
-  },
-  {
-    key: "X-XSS-Protection",
-    value: "1; mode=block",
-  },
-  {
-    key: "X-Frame-Options",
-    value: "SAMEORIGIN",
-  },
-  {
-    key: "X-Content-Type-Options",
-    value: "nosniff",
-  },
-  {
-    key: "Referrer-Policy",
-    value: "strict-origin-when-cross-origin",
-  },
-  {
-    key: "Content-Security-Policy",
-    value: "'default-src 'self'",
-  },
-];
+const isDev = process.env.NODE_ENV !== "production";
 
 /**
  * @type {import('next').NextConfig}
@@ -38,9 +14,8 @@ const nextConfig = {
   async headers() {
     return [
       {
-        // Apply these headers to all routes in your application.
         source: "/:path*",
-        headers: securityHeaders,
+        headers: nextSafe({ isDev }),
       },
     ];
   },
