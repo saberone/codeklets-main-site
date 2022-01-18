@@ -15,7 +15,13 @@ const nextConfig = {
     return [
       {
         source: "/:path*",
-        headers: nextSafe({ isDev }),
+        headers: nextSafe({
+          contentSecurityPolicy: {
+            "frame-src": ["pinecast.com"],
+          },
+          permissionsPolicyDirectiveSupport: ["standard"],
+          isDev,
+        }),
       },
     ];
   },
