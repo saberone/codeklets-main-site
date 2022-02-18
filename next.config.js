@@ -1,7 +1,6 @@
 const withPlugins = require("next-compose-plugins");
 const withReactSvg = require("next-react-svg");
 const path = require("path");
-const nextSafe = require("next-safe");
 
 const isDev = process.env.NODE_ENV !== "production";
 
@@ -11,20 +10,6 @@ const isDev = process.env.NODE_ENV !== "production";
 const nextConfig = {
   // Support MDX files as pages:
   pageExtensions: ["mdx", "tsx", "ts", "jsx", "js"],
-  async headers() {
-    return [
-      {
-        source: "/:path*",
-        headers: nextSafe({
-          contentSecurityPolicy: {
-            "frame-src": ["pinecast.com"],
-          },
-          permissionsPolicyDirectiveSupport: ["standard"],
-          isDev,
-        }),
-      },
-    ];
-  },
 
   webpack(config, options) {
     config.module.rules.push({
