@@ -2,7 +2,7 @@
 title: "Jeffrey Bosch en Sander Elias vertellen ons alles over Angular development"
 excerpt: "Jeffrey en Sander zijn zeer bekende developers binnen de Angular community, zij vertellen in deze aflevering alles over Angular development"
 coverImage: "/assets/podcast/s02e01/thomas.jpg"
-date: "2021-11-10T20:07:01.337Z"
+date: "2022-02-21T20:07:01.337Z"
 author:
   name: Saber Karmous
   picture: "/assets/blog/authors/jj.jpeg"
