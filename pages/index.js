@@ -5,7 +5,7 @@ import Intro from "../components/intro";
 import Layout from "../components/layout";
 import SectionSeparator from "../components/section-separator";
 import { getAllPosts } from "../lib/api";
-import Head from "next/head";
+// import Head from "next/head";
 
 export default function Index({ allPosts }) {
   const heroPost = allPosts[0];
@@ -13,9 +13,6 @@ export default function Index({ allPosts }) {
   return (
     <>
       <Layout>
-        <Head>
-          <title>CodeKlets</title>
-        </Head>
         <Container>
           <Intro />
           <SectionSeparator />
@@ -38,7 +35,8 @@ export default function Index({ allPosts }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getStaticProps(context) {
+  console.log("context", context);
   const allPosts = await getAllPosts([
     "title",
     "date",
