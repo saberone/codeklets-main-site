@@ -22,6 +22,7 @@ const nextSafeWithStrictDynamic = nextSafe((req) => {
       ...strictDynamic,
       "frame-src": ["pinecast.com"],
       "img-src": ["'self'", "data:"],
+      "style-src": ["'self'", "'unsafe-inline'"],
     },
     // customize as you need: https://trezy.gitbook.io/next-safe/usage/configuration
   };
