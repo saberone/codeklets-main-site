@@ -12,7 +12,7 @@ season: 2
 episode: 14
 ---
 
-Deze aflevering hebben we niet zomaar wat Angular developers weten te strikken, maar twee zeer bekenden binnen de Angular community: Jeffrey Bossch en Sander Elias.
+Deze aflevering hebben we niet zomaar wat Angular developers weten te strikken, maar twee zeer bekenden binnen de Angular community: Jeffrey Bosch en Sander Elias.
 
 Jeffrey is de auteur van ngx-aws-deploy, mede-organisator van de Dutch Angular Group en lid van het xLayers kernteam en medewerker van Scully. Momenteel werkt hij bij Stiply als Senior Softwareontwikkelaar. Hij heeft een passie voor alles wat met internet te maken heeft en draagt ​​bij aan verschillende open source-projecten zoals NGRX en de Angular CLI.
 
@@ -22,7 +22,7 @@ Sander is een ervaren ontwikkelaar met meer dan 4 decennia aan praktijkervaring 
 
 - Saber Karmous - [LinkedIn](https://www.linkedin.com/in/saberkarmous/) [Twitter](https://twitter.com/sdotone)
 
-## Jeffrey Bossch
+## Jeffrey Bosch
 
 - LinkedIn - [link](https://www.linkedin.com/in/jeffrey-b-90496827/)
 - Twitter - [@jefiozie](https://twitter.com/jefiozie)
