@@ -14,6 +14,7 @@ const nextSafeWithStrictDynamic = nextSafe((req) => {
     !isDev && !ua?.browser?.name?.includes("Safari")
       ? {
           "script-src": [`'strict-dynamic'`, "https:", `'unsafe-inline'`],
+          "connect-src": [`'self'`, "vitals.vercel-insights.com"],
         }
       : {};
   return {
