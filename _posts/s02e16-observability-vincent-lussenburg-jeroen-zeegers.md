@@ -13,7 +13,7 @@ episode: 16
 ---
 
 In deze aflevering gaan we het hebben over Observability. Een onderwerp waar onze gasten veel mee te maken mee hebben en hier vast wel iets over kunnen vertellen.
-Een van onze gasten vandaag is Vincent Lussenburg die werkt bij Backtrace I/O, bedrijf van SauceLabs uit Denver US! Hij werkt daar als Technical Product Manager. Hoe gaat het daar?
+Een van onze gasten is Vincent Lussenburg die werkt bij Backtrace I/O, bedrijf van SauceLabs uit Denver US! Hij werkt daar als Technical Product Manager. 
 Andere gast is Jeroen Zeegers die werkt bij de Nederlandse Spoorwegen als Site Reliability Engineer. 
 Nog een speciale shoutout doen naar Wouter Dijks, een van onze CodeKlets.nl fans die voor ons alle vragen hebben opgesteld voor deze aflevering. 
 Zonder jouw effort was deze aflevering leeg!
@@ -36,22 +36,22 @@ Zonder jouw effort was deze aflevering leeg!
 ## Onderwerpen
 
 00:00:11 Intro  
-00:10:45 - Wanneer is het programmeren bij jullie begonnen?
-00:19:30 - Wat is observability nou eigenlijk?
-00:22:00 - Wat doet Backtrace eigenlijk mbt observability en games? En hoe verschilt dat bij de Nederlandse Spoorwegen?
-00:25:45 - Wat is het verschil met monitoring?
-00:30:30 - Wat is het verschil met metrics?
-00:34:50 - Wat is het verschil met tracing?
-00:37:45 - Waar moet ik mee beginnen met observability?
-00:43:15 - Observability by design & tools als Prometheus en Graphana en type data
-01:00:00 - Wat zijn de minimale gegevens die je moet observeren?
-01:03:47 - Hoe maak je plannen voor observability en hoe gaat het verder in zijn werk? The tips and tricks
-01:09:00 - Wie neemt de verantwoordelijkheid van de observability resultaten?
-01:10:35 - Hoe omgaan met alerts met machine learning met self healing capabilities?
-01:23:00 - Tips rondom client side observability in browsers en gameconsoles
-01:28:00 - Developer Dilemmas
-01:42:40 - Tip and tricks
-00:48:07 - Outro
+00:10:45 - Wanneer is het programmeren bij jullie begonnen?  
+00:19:30 - Wat is observability nou eigenlijk?  
+00:22:00 - Wat doet Backtrace eigenlijk mbt observability en games? En hoe verschilt dat bij de Nederlandse Spoorwegen?  
+00:25:45 - Wat is het verschil met monitoring?  
+00:30:30 - Wat is het verschil met metrics?  
+00:34:50 - Wat is het verschil met tracing?  
+00:37:45 - Waar moet ik mee beginnen met observability?  
+00:43:15 - Wat is Observability by design met tools als Prometheus en Graphana en type data?  
+01:00:00 - Wat zijn de minimale gegevens die je moet observeren?  
+01:03:47 - Hoe maak je plannen voor observability en hoe gaat het verder in zijn werk? The tips and tricks  
+01:09:00 - Wie neemt de verantwoordelijkheid van de observability resultaten?  
+01:10:35 - Hoe omgaan met alerts met machine learning met self healing capabilities?  
+01:23:00 - Tips rondom client side observability in browsers en gameconsoles  
+01:28:00 - Developer Dilemmas  
+01:42:40 - Tip and tricks  
+00:48:07 - Outro  
 
 ## Random notes
 
