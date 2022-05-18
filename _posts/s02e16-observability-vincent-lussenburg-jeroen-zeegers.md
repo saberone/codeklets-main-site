@@ -13,9 +13,10 @@ episode: 16
 ---
 
 In deze aflevering gaan we het hebben over Observability. Een onderwerp waar onze gasten veel mee te maken mee hebben en hier vast wel iets over kunnen vertellen.
-Een van onze gasten is Vincent Lussenburg die werkt bij Backtrace I/O, bedrijf van SauceLabs uit Denver US! Hij werkt daar als Technical Product Manager. 
-Andere gast is Jeroen Zeegers die werkt bij de Nederlandse Spoorwegen als Site Reliability Engineer. 
-Nog een speciale shoutout doen naar Wouter Dijks, een van onze CodeKlets.nl fans die voor ons alle vragen hebben opgesteld voor deze aflevering. 
+Een van onze gasten is Vincent Lussenburg die werkt bij Backtrace I/O, bedrijf van SauceLabs uit Denver US! Hij werkt daar als Technical Product Manager.
+Onze andere gast is Jeroen Zeegers die werkt bij de Nederlandse Spoorwegen als Site Reliability Engineer.
+
+Een speciale shoutout doen naar Wouter Dijks, een van onze CodeKlets.nl fans die voor ons alle vragen heeft opgesteld voor deze aflevering.
 Zonder jouw effort was deze aflevering leeg!
 
 ## Met hosts
@@ -31,7 +32,6 @@ Zonder jouw effort was deze aflevering leeg!
 
 - Twitter - [@jeroenzeegers](https://twitter.com/jeroenzeegers)
 - [LinkedIn](https://www.linkedin.com/in/jeroenzeegers/)
-
 
 ## Onderwerpen
 
@@ -51,7 +51,7 @@ Zonder jouw effort was deze aflevering leeg!
 01:23:00 - Tips rondom client side observability in browsers en gameconsoles  
 01:28:00 - Developer Dilemmas  
 01:42:40 - Tip and tricks  
-00:48:07 - Outro  
+01:48:07 - Outro
 
 ## Random notes
 
@@ -65,7 +65,7 @@ Zonder jouw effort was deze aflevering leeg!
 ### Vincent
 
 - [Guerrilla Games - Horizon series](https://www.guerrilla-games.com/games)
-- [Bobiverse series](https://bobiverse.fandom.com/wiki/We_Are_Legion_(We_Are_Bob)_Wiki)
+- [Bobiverse series](<https://bobiverse.fandom.com/wiki/We_Are_Legion_(We_Are_Bob)_Wiki>)
 - [Old Mans War - John Scalzi](https://www.bol.com/nl/nl/f/old-man-s-war/30315532/)
 
 ### Jeroen
