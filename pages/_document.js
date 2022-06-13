@@ -1,6 +1,5 @@
-/* eslint-disable @next/next/no-document-import-in-page */
 import Document, {
-  provideComponents,
+  provideComponents
 } from "@next-safe/middleware/dist/document";
 import { Html, Main } from "next/document";
 
