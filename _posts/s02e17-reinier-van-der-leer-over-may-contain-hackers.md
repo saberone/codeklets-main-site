@@ -12,7 +12,7 @@ season: 2
 episode: 17
 ---
 
-Deze aflevering bespreken we best wel een bijzonder festival: het [May Contain Hackers festival](https://mch2022.org/#/). En iets waarmee dit festival zich onderscheid van andere vergelijkbare festivals is Badge, wat hardware is bestaande uit onder meer een Espressif ESP32 Wrover-e WiFi module, een Raspberry pi RP2040 microcontroller, en een Lattice ICE40UP5K FPGA voor hardware versnelde graphics met een LCD scherm. Reinier vertelt ons alles over de ontwikkeling van de badge.
+Deze aflevering bespreken we best wel een bijzonder festival: het [May Contain Hackers festival](https://mch2022.org/#/). En iets waarmee dit festival zich onderscheid van andere vergelijkbare festivals is de Badge: hardware bestaande uit onder meer een Espressif ESP32 Wrover-e WiFi module, een Raspberry pi RP2040 microcontroller, en een Lattice ICE40UP5K FPGA voor hardware versnelde graphics met een LCD scherm. Reinier vertelt ons alles over de ontwikkeling van de badge.
 
 De podcast is opgenomen op 6 juni 2022. En vanwege wat technische uitdagingen tijdens de opname, hebben we wat meer tijd gestoken in het bewerken van deze aflevering.
 
