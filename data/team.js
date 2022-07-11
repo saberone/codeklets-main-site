@@ -7,8 +7,8 @@ const team = [
     imageSrc: "/images/team/bernard_400x400.jpg",
     socials: {
       linkedIn: "https://www.linkedin.com/in/bernard-kroes-5050a82/",
-      github: "https://github.com/bernardkroes"
-    }
+      github: "https://github.com/bernardkroes",
+    },
   },
   {
     fullName: "Johnny Dongelmans",
@@ -18,8 +18,8 @@ const team = [
     imageSrc: "/images/team/johnny_400x400.jpg",
     socials: {
       linkedIn: "https://www.linkedin.com/in/johnnydongelmans/",
-      github: "https://github.com/jdongelmans"
-    }
+      github: "https://github.com/jdongelmans",
+    },
   },
   {
     fullName: "Pauline Vos",
@@ -31,8 +31,8 @@ const team = [
       linkedIn: "https://www.linkedin.com/in/paulinepvos/",
       github: "https://github.com/paulinevos",
       twitter: "https://twitter.com/vanamerongen",
-      personal: "https://www.pauline-vos.nl"
-    }
+      personal: "https://www.pauline-vos.nl",
+    },
   },
   {
     fullName: "Kishen Simbhoedatpanday",
@@ -43,21 +43,33 @@ const team = [
       linkedIn: "https://www.linkedin.com/in/kishensimbhoedatpanday/",
       twitter: "https://twitter.com/kishenpanday",
       github: "https://github.com/eskape",
-      personal: "https://kishenpanday.medium.com/"
-    }
+      personal: "https://kishenpanday.medium.com/",
+    },
   },
   {
     fullName: "Saber Karmous",
     role: "Host",
     imageSrc: "/images/team/saber_400x400.jpg",
     story:
-      "Software Artist, omdat hij niet gespecialiseerd is in één aspect van software ontwikkeling. Programmeert in C#, Javascript/Typescript en vind zowel front-end als back-end leuk. Verder heeft hij ook de rol van solution architect mogen invullen. Maar vindt eigenlijk teveel leuk.",
+      "Software Artist, omdat hij niet gespecialiseerd is in één aspect van software ontwikkeling. Programmeert in C#, Javascript/Typescript en vind zowel front-end als back-end leuk. Verder speelt hij zo nu en dan als solution architect.",
     socials: {
       linkedIn: "https://www.linkedin.com/in/saberkarmous/",
       github: "https://github.com/saberone",
-      twitter: "https://twitter.com/sdotone"
-    }
-  }
+      twitter: "https://twitter.com/sdotone",
+    },
+  },
+  {
+    fullName: "Wouter Dijks",
+    role: "Host",
+    imageSrc: "/images/team/wouter_400x400.png",
+    story:
+      "Junior IOS-developer met af en toe last van shiny-object syndrome. Gek op starwars en coden. Ervaring met data-engineering.",
+    socials: {
+      linkedIn: "https://www.linkedin.com/in/wouterdijks/",
+      github: "https://github.com/",
+      twitter: "https://twitter.com/advocadojager",
+    },
+  },
 ];
 
 export default team;
