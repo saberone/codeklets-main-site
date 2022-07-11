@@ -1,18 +1,7 @@
-import Document, {
-  provideComponents
-} from "@next-safe/middleware/dist/document";
-import { Html, Main } from "next/document";
+import Document, { Head, Html, Main, NextScript } from "next/document";
 
-class MyDocument extends Document {
-  static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx);
-    return initialProps;
-  }
-
+export default class MyDocument extends Document {
   render() {
-    // those components are automagically wired with provideHashesOrNonce
-    const { Head, NextScript } = provideComponents(this.props);
-
     return (
       <Html
         lang="en"
@@ -27,5 +16,3 @@ class MyDocument extends Document {
     );
   }
 }
-
-export default MyDocument;
