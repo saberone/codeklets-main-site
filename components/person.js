@@ -4,14 +4,14 @@ import SocialLink from "./social-link";
 export default function Person({ fullName, role, story, imageSrc, socials }) {
   return (
     <div>
-      <div className="h-72 sm:h-72 md:h-72 bg-gray-100 overflow-hidden rounded-lg shadow-lg mb-2 sm:mb-4">
+      <div className="h-60 sm:h-60 md:h-56 lg:h-80  w-60 sm:w-60 md:w-56 lg:w-80   bg-gray-100 overflow-hidden rounded-lg shadow-lg mb-2 sm:mb-4">
         <Image
           src={imageSrc}
           loading="eager"
           alt={`Picture of ${fullName}`}
           className="w-full h-full object-contain object-center"
-          width={400}
-          height={400}
+          width={520}
+          height={520}
         />
       </div>
 
