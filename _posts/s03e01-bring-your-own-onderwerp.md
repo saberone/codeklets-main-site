@@ -41,7 +41,7 @@ Deze aflevering hebben we weer lekker face to face opgenomen, en [Aviva Solution
 
 ## Show links
 
-- Het #CodeKletsTour bereik je door hier te [klikkerdeklikken](slack://channel?team=TM64WG50Q&id=C03P10QR728) als je al op onze Slack zit. Zo niet, WAAROM NOG NIET? Dus hup snel via deze link aanmelden: [CodeKlets Slack](https://join.slack.com/t/codeklets/shared_invite/).
+- Het #CodeKletsTour bereik je door hier te <a href="slack://channel?team=TM64WG50Q&id=C03P10QR728">klikkerdeklik</a> als je al op onze Slack zit. Zo niet, WAAROM NOG NIET? Dus hup snel via deze link aanmelden: [CodeKlets Slack](https://join.slack.com/t/codeklets/shared_invite/).
 
 ## Tips
 
