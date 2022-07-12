@@ -15,7 +15,7 @@ export default function Intro() {
             De CodeKlets Podcast
           </h1>
           <h2 className="text-3xl lg:text-4xl font-light tracking-tighter leading-tight md:pr-8">
-            Lekker luchtige gesprekken over software development
+            Informatieve & luchtige gesprekken over software development
           </h2>
           <div className="w-full text-center"></div>
         </div>
