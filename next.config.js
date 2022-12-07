@@ -2,8 +2,6 @@ const withPlugins = require("next-compose-plugins");
 const withReactSvg = require("next-react-svg");
 const path = require("path");
 
-const isDev = process.env.NODE_ENV !== "production";
-
 /**
  * @type {import('next').NextConfig}
  */

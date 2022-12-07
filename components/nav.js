@@ -13,12 +13,13 @@ export default function Nav() {
     <nav className="border-b border-gray-200 py-4 flex items-center justify-between mb-16 sm:mb-20 -mx-4 px-4 sm:mx-0 sm:px-0">
       <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
         <div className="flex-shrink-0 flex items-center">
-          <Link href="/">
-            <a className="text-sm font-bold leading-relaxed inline-block mr-4 whitespace-no-wrap">
-              <h2 className="text-3xl lg:text-3xl font-bold tracking-tighter">
-                {"{CodeKlets}"}
-              </h2>
-            </a>
+          <Link
+            href="/"
+            className="text-sm font-bold leading-relaxed inline-block mr-4 whitespace-no-wrap"
+          >
+            <h2 className="text-3xl lg:text-3xl font-bold tracking-tighter">
+              {"{CodeKlets}"}
+            </h2>
           </Link>
         </div>
         <div className="block ml-0 sm:ml-6">
@@ -39,34 +40,26 @@ export default function Nav() {
           className="text-base leading-6 font-medium hover:text-gray-600 transition-colors duration-200 py-2"
           href="/contact"
         >
-          <a className="flex items-center text-xs uppercase font-bold leading-snug hover:text-gray-600 transition-colors duration-200 hover:opacity-75">
-            <span className="hidden sm:inline">Contact</span>
-          </a>
+          <span className="hidden sm:inline">Contact</span>
         </Link>
 
         <Link
           className="text-base leading-6 font-medium hover:text-gray-600 transition-colors duration-200 py-2"
           href="/supportus"
         >
-          <a className="flex items-center text-xs uppercase font-bold leading-snug hover:text-gray-600 transition-colors duration-200 hover:opacity-75">
-            <span className="hidden sm:inline">Steun ons</span>
-          </a>
+          <span className="hidden sm:inline">Steun ons</span>
         </Link>
         <Link
           className="text-base leading-6 font-medium hover:text-gray-600 transition-colors duration-200 py-2"
           href="/about"
         >
-          <a className="flex items-center text-xs uppercase font-bold leading-snug hover:text-gray-600 transition-colors duration-200 hover:opacity-75">
-            <span className="hidden sm:inline">Over ons</span>
-          </a>
+          <span className="hidden sm:inline">Over ons</span>
         </Link>
         <Link
           className="text-base leading-6 font-medium hover:text-gray-600 transition-colors duration-200 py-2"
           href="/newsletter"
         >
-          <a className="flex items-center text-xs uppercase font-bold leading-snug hover:text-gray-600 transition-colors duration-200 hover:opacity-75">
-            <span className="hidden sm:inline">Nieuwsbrief</span>
-          </a>
+          <span className="hidden sm:inline">Nieuwsbrief</span>
         </Link>
         <a
           href="https://twitter.com/codeklets"
