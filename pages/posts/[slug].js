@@ -11,13 +11,18 @@ import Head from "next/head";
 
 import markdownToHtml from "../../lib/markdownToHtml";
 
-import Parser from "rss-parser";
+import { getEpisodes } from "../../lib/transistorfm";
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
   }
+
+  function playerMarkup() {
+    return { __html: post.player_html };
+  }
+
   return (
     <Layout preview={preview}>
       <Container>
@@ -36,18 +41,10 @@ export default function Post({ post, morePosts, preview }) {
                 date={post.date}
                 author={post.author}
               />
-              <div className="max-w-2xl mx-auto">
-                <iframe
-                  title="Pinecast player"
-                  src={`https://pinecast.com/player/${post.episodeguid}?theme=flat`}
-                  seamless
-                  height="200"
-                  style={{ border: 0 }}
-                  className="pinecast-embed"
-                  frameBorder="0"
-                  width="100%"
-                ></iframe>
-              </div>
+              <div
+                className="max-w-2xl mx-auto"
+                dangerouslySetInnerHTML={playerMarkup()}
+              ></div>
               <PostBody content={post.content} />
             </article>
           </>
@@ -58,9 +55,7 @@ export default function Post({ post, morePosts, preview }) {
 }
 
 export async function getStaticProps({ params }) {
-  const parser = new Parser();
-
-  const feed = await parser.parseURL("https://pinecast.com/feed/codeklets");
+  const episodes = await getEpisodes();
 
   const post = await getPostBySlug(
     params.slug,
@@ -74,9 +69,10 @@ export async function getStaticProps({ params }) {
       "coverImage",
       "season",
       "episode",
-      "episodeguid",
+      "media",
+      "player_html",
     ],
-    feed
+    episodes
   );
   const content = await markdownToHtml(post.content || "");
 
