@@ -6,22 +6,17 @@ export default function HeroPost({
   excerpt,
   author,
   slug,
-  episodeguid,
+  player_html,
 }) {
+  function playerMarkup() {
+    return { __html: player_html };
+  }
+
   return (
     <section className="px-2">
       <div className="bg-gray-100 rounded-md">
         <div className="mt-6 mb-2 md:mb-4 p-4">
-          <iframe
-            title="Pinecast podcast player"
-            src={`https://pinecast.com/player/${episodeguid}?theme=flat`}
-            seamless
-            height="200"
-            style={{ border: 0 }}
-            className="pinecast-embed"
-            frameBorder="0"
-            width="100%"
-          ></iframe>
+          <div dangerouslySetInnerHTML={playerMarkup()}></div>
           <div>
             {/* <h3 className="mb-2 text-3xl lg:text-5xl leading-none font-semibold">
               <Link as={`/posts/${slug}`} href="/posts/[slug]">

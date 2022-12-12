@@ -24,7 +24,7 @@ export default function Index({ allPosts }) {
               author={heroPost.author}
               slug={heroPost.slug}
               excerpt={heroPost.excerpt}
-              episodeguid={heroPost.episodeguid}
+              player_html={heroPost.player_html}
             />
           )}
           <SectionSeparator />
