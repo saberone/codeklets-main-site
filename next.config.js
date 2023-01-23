@@ -1,32 +1,22 @@
 const withPlugins = require("next-compose-plugins");
-const withReactSvg = require("next-react-svg");
+
 const path = require("path");
 
-/**
- * @type {import('next').NextConfig}
- */
-const nextConfig = {
+module.exports = {
   // Support MDX files as pages:
   pageExtensions: ["mdx", "tsx", "ts", "jsx", "js"],
 
-  webpack(config, options) {
+  webpack(config) {
     config.module.rules.push({
       test: /\.mdx$/,
       use: [{ loader: "xdm/webpack.cjs", options: {} }],
     });
 
+    config.module.rules.push({
+      test: /\.svg$/i,
+      issuer: /\.[jt]sx?$/,
+      use: ["@svgr/webpack"],
+    });
     return config;
   },
 };
-
-module.exports = withPlugins(
-  [
-    [
-      withReactSvg,
-      {
-        include: path.resolve(__dirname, "assets/svg"),
-      },
-    ],
-  ],
-  nextConfig
-);
