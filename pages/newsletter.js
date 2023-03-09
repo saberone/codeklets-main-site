@@ -23,28 +23,18 @@ function Newsletter({ preview }) {
             </h1>
           </div>
         </div>
-        {!subscribed ? (
-          <div className="max-w-2xl mx-auto">
-            <p className="pb-8">
-              Schrijf je hier in voor de CodeKlets Developer nieuwsbrief. Een
-              tweewekelijkse nieuwsbrief met interessante links naar zaken die
-              developers interessant vinden, en een klein beetje duiding op zijn
-              CodeKlets&apos;.
-            </p>
-            <Subscribe onSubscribed={handleSubscribed}></Subscribe>
-          </div>
-        ) : (
-          <div className="max-w-2xl mx-auto">
-            <h3 className="mb-8 text-4xl md:text-5xl font-bold tracking-tighter leading-tight">
-              Bedankt voor het abonneren!
-            </h3>
-            <p>
-              We hebben een mail verstuurd waarmee je de boel kunt bevestigen.
-              Check je mailbox, en controlleer voor de zekerheid ook je spam
-              folder.
-            </p>
-          </div>
-        )}
+
+        <div className="max-w-2xl mx-auto">
+          <h3 className="mb-8 text-4xl md:text-5xl font-bold tracking-tighter leading-tight">
+            Bye bye nieuwsbrief
+          </h3>
+          <p>
+            We hebben helaas de conclusie moeten trekken dat we te weinig tijd
+            en energie hadden om de CodeKlets nieuwsbrief te blijven maken.
+            Misschien dat we in de toekomst, de nieuwsbrief nieuw leven in
+            blazen.
+          </p>
+        </div>
       </Container>
     </Layout>
   );

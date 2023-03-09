@@ -29,14 +29,6 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/newsletter"
-                  className="hover:text-gray-900 transition-colors duration-200"
-                >
-                  Nieuwsbrief
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/supportus"
                   className="hover:text-gray-900 transition-colors duration-200"
                 >
