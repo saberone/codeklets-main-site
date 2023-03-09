@@ -55,12 +55,6 @@ export default function Nav() {
         >
           <span className="hidden sm:inline">Over ons</span>
         </Link>
-        <Link
-          className="text-base leading-6 font-medium hover:text-gray-600 transition-colors duration-200 py-2"
-          href="/newsletter"
-        >
-          <span className="hidden sm:inline">Nieuwsbrief</span>
-        </Link>
         <a
           href="https://twitter.com/codeklets"
           className="text-gray-400 hover:text-gray-500 transition-colors duration-200"
