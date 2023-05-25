@@ -36,7 +36,6 @@ export default function Index({ allPosts }) {
 }
 
 export async function getStaticProps(context) {
-  console.log("context", context);
   const allPosts = await getAllPosts([
     "title",
     "date",

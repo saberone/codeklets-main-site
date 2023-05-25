@@ -12,7 +12,7 @@ const subscribe = async (req, res) => {
   try {
     // 3. Fetch the environment variables.
     const API_KEY = process.env.GETREVUE_API_KEY;
-    console.log("Api key", API_KEY);
+
     const data = {
       email: email,
       first_name: firstName,
