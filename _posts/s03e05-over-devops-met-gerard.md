@@ -2,7 +2,7 @@
 title: "Over CI/CD met Rik de Groot en Gerard van Engelen"
 excerpt: "In deze aflevering hebben we het over CI/CD en DevOps"
 coverImage: "/assets/podcast/s01e07/felienne-hermans.jpg"
-date: "2023-05-15T13:37:07.322Z"
+date: "2023-06-14T13:37:07.322Z"
 author:
   name: Saber Karmous
   picture: "/assets/blog/authors/jj.jpeg"
