@@ -18,7 +18,7 @@
     "gray-matter": "^4.0.3",
     "isomorphic-dompurify": "^2.13.0",
     "isomorphic-unfetch": "^4.0.2",
-    "next": "^14.2.21",
+    "next": "^14.2.26",
     "next-compose-plugins": "^2.2.1",
     "postcss": "^8.4.39",
     "postcss-flexbugs-fixes": "^5.0.2",
