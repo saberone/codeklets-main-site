@@ -1,20 +1,14 @@
-// tailwind.config.js
+import defaultTheme from "tailwindcss/defaultTheme";
+import typography from "@tailwindcss/typography";
 
-const defaultTheme = require("tailwindcss/defaultTheme");
-
-module.exports = {
-  future: {
-    purgeLayersByDefault: true,
-  },
+export default {
   content: [
-    // Use *.tsx if using TypeScript
     "./pages/**/*.js",
-    "./components/**/*.js",
+    "./components/**/*.js", 
     "./pages/**/*.mdx",
   ],
   plugins: [
-    require("@tailwindcss/typography"),
-    // ...
+    typography,
   ],
   theme: {
     extend: {
@@ -23,5 +17,4 @@ module.exports = {
       },
     },
   },
-  // ...
 };
