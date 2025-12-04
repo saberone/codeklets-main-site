@@ -19,14 +19,14 @@
     "gray-matter": "^4.0.3",
     "isomorphic-dompurify": "^2.26.0",
     "isomorphic-unfetch": "^4.0.2",
-    "next": "^15.5.3",
+    "next": "15.5.7",
     "next-compose-plugins": "^2.2.1",
     "postcss": "^8.5.6",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^10.3.1",
     "prettier": "^3.6.2",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
     "react-hook-form": "^7.62.0",
     "react-icons": "^5.5.0",
     "remark": "^15.0.1",
@@ -41,7 +41,7 @@
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",
     "eslint": "^9.35.0",
-    "eslint-config-next": "^15.5.3"
+    "eslint-config-next": "15.5.7"
   },
   "packageManager": "pnpm@9.0.0"
 }
